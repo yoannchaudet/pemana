@@ -6,7 +6,7 @@
     
     <div class="header">
 
-        <h3>HEADER</h3>
+        <!-- HEADER -->
 
         <div class="wrapLogo">
             <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">

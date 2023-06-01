@@ -7,8 +7,6 @@
 <template>
   <div class="interface">
 
-    <h1>App</h1>
-
     <HeaderApp />
     <RouterView />
     <FooterApp />
