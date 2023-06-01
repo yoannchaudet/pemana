@@ -1,0 +1,52 @@
+.footer{
+    width: 100vw;
+    padding: 1em;
+    background-color: rgb(230, 230, 230);
+    
+    & .wrapInfo{
+        @include setFlex(row, space-between, center);
+        
+        & .entreprise{
+            @include setFlex(column, center, center);
+            
+            & .wrapLogo{
+                width: 150px;
+
+                & img{
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            & .reseauxSociaux{
+                @include setFlex(row, space-between, center);
+
+                & .wrapLogo{
+                    width: 30px;
+    
+                    & img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+
+    }
+
+    & .links{
+        align-items: center;
+
+        & nav{
+
+            & ul{
+                @include setFlex(column, center, start);
+                margin: 0;
+
+                & li{
+                    padding: 1em;
+                }
+            }
+        }
+    }
+}

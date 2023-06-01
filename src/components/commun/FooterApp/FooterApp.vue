@@ -6,8 +6,6 @@
     <!-- CHANGER LA CLASS DU DIV ↴ -->
     <div class="footer">
 
-        <h3>FOOTER</h3>
-
         <div class="wrapInfo">
 
             <div class="entreprise">

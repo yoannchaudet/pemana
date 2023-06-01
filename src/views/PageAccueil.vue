@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <!-- CHANGER LA CLASS DU DIV ↴ -->
-    <div class="template">
+    
+    <div class="accueil">
 
         <h2>PAGE ACCUEIL</h2>
 
