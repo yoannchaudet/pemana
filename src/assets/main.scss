@@ -1,1 +1,9 @@
+@import './scss/base/base.scss';
+@import './scss/base/mixins';
+@import './scss/base/normalize.scss';
+@import './scss/base/typo';
+@import './scss/base/variables';
+
+@import './scss/components/components.scss';
+
 @import './node_modules/bootstrap/scss/bootstrap.scss';
