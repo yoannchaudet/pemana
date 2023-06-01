@@ -14,6 +14,23 @@
                 <div class="wrapLogo">
                     <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
                 </div>
+                <div class="reseauxSociaux">
+                    <div class="wrapLogo">
+                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                    </div>
+                    <div class="wrapLogo">
+                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                    </div>
+                    <div class="wrapLogo">
+                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                    </div>
+                    <div class="wrapLogo">
+                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                    </div>
+                    <div class="wrapLogo">
+                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                    </div>
+                </div>
             </div>
 
             <div class="contact">
