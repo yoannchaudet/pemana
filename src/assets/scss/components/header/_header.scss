@@ -1,0 +1,35 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = =
+//  Auteur : Olivier Daigneault
+// = = = = = = = = = = = = = = = = = = = = = = = = =
+
+.header{
+    @include setFlex(row, space-between, center);
+    width: 100vw;
+    padding: 1em;
+    background-color: rgb(230, 230, 230);
+
+    & .wrapLogo{
+        width: 100px;
+
+        & img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    & .links{
+        align-items: center;
+
+        & nav{
+
+            & ul{
+                @include setFlex(row, center, center);
+                margin: 0;
+
+                & li{
+                    padding: 1em;
+                }
+            }
+        }
+    }
+}
