@@ -4,7 +4,7 @@
 
 <template>
     <!-- CHANGER LA CLASS DU DIV ↴ -->
-    <div class="template">
+    <div class="footer">
 
         <h3>FOOTER</h3>
 

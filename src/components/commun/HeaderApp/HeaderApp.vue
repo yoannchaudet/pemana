@@ -4,7 +4,7 @@
 
 <template>
     <!-- CHANGER LA CLASS DU DIV ↴ -->
-    <div class="template">
+    <div class="header">
 
         <h3>HEADER</h3>
 
