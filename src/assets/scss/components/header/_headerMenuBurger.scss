@@ -1,0 +1,142 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = =
+//  Auteur : Olivier Daigneault
+// = = = = = = = = = = = = = = = = = = = = = = = = =
+
+//tout est rempli de !important pour over-write le style invisible du mystère absolu ¯\_(ツ)_/¯
+
+.bm-burger-button {
+
+    //my add-on
+    position: relative !important;
+    top: 0 !important;
+    left: 25px !important;
+    z-index: 10 !important;
+    width: 30px !important;
+    height: 30px !important;
+
+    &::after{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+        content: "";
+        right: -10px;
+        top: -10px;
+        z-index: -1;
+        border-radius: 100%;
+        background-color: rgb(176, 176, 176);
+    }
+  }
+  .bm-burger-bars {
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 10px;
+
+    background: white !important;
+  }
+  .line-style {
+    position: absolute;
+    height: 20%;
+    left: 0;
+    right: 0;
+  }
+  .cross-style {
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    cursor: pointer;
+  }
+  .bm-cross {
+    position: absolute !important;
+    left: 2px;
+    width: 40px !important;
+    height: 5px !important;
+    border-radius: 10px;
+
+    background: white !important;
+  }
+  .bm-cross-button {
+    position: relative !important;
+    top: -510px !important;
+    left: 35px !important;
+    z-index: 10 !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 20 !important;
+
+    &::after{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+        content: "";
+        right: -47px;
+        top: -24px;
+        z-index: -1;
+        border-radius: 100%;
+        background-color: rgb(176, 176, 176);
+    }
+  }
+  .bm-menu {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed, relative !important; /* Stay in place */
+    z-index: 1000; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(63, 63, 65); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
+
+    &::before{
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 275px;
+        padding: 0;
+        content: "";
+        left: 0;
+        top: 0;
+        z-index: -2;
+        background-color:white;
+    }
+    //doesnt work for some obscur reason
+    // &::after{
+    //     display: block;
+    //     position: absolute;
+    //     width: 500px;
+    //     height: 275px;
+    //     padding: 0;
+    //     content: "";
+    //     left: 0;
+    //     top: 0;
+    //     z-index: 10;
+    //     background: no-repeat url("./../../../../../src/assets/img/pdf/logo_pemana.pdf");
+    // }
+  }
+
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
+  .bm-item-list {
+    color: #b8b7ad;
+    margin-top: 215px;
+    margin-left: 0 !important;
+    font-size: 20px;
+  }
+  .bm-item-list > * {
+    display: flex;
+    text-decoration: none;
+    padding: 15px 15px 15px 40px!important;
+  }
+  .bm-item-list > * > span {
+    margin-left: 10px;
+    font-weight: 700;
+    color: white;
+  }
