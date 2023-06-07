@@ -6,7 +6,7 @@
     <!-- CHANGER LA CLASS DU DIV ↴ -->
     <div class="template">
 
-        <NavBarButton>ooga booga</NavBarButton>
+        <NavBarButton/>
 
     </div>
 
