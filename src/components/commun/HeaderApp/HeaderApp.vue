@@ -1,5 +1,5 @@
 <script setup>
-
+    import NavBar from '@/components/NavBar/NavBar.vue'
 </script>
 
 <template>
@@ -7,7 +7,9 @@
     <div class="header">
 
         <!-- HEADER -->
-
+        <div class="wrapBurger">
+            <NavBar />
+        </div>
         <div class="wrapLogo">
             <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
         </div>

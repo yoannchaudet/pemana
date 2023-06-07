@@ -1,12 +1,12 @@
 <script setup>
-
+    import NavBarButton from '@/components/NavBar/NavBarButton.vue'
 </script>
 
 <template>
     <!-- CHANGER LA CLASS DU DIV ↴ -->
     <div class="template">
 
-        placeholder
+        <NavBarButton>ooga booga</NavBarButton>
 
     </div>
 

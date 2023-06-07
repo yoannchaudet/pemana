@@ -5,8 +5,8 @@
 <template>
     <!-- CHANGER LA CLASS DU DIV ↴ -->
     <div class="template">
-
-        placeholder
+        swaswas
+        <slots></slots>
 
     </div>
 
