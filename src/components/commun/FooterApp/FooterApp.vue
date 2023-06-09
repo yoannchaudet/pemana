@@ -10,7 +10,7 @@
 
             <div class="entreprise">
                 <div class="wrapLogo">
-                    <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                    <img src="../../../assets/img/svg/logo_pemana.svg" alt="logo-pemana">
                 </div>
                 <div class="reseauxSociaux">
                     <div class="wrapLogo">
