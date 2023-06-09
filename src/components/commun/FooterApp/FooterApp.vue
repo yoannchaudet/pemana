@@ -1,5 +1,6 @@
 <script setup>
-
+    import categorieData from '@/assets/json/categories.json'
+    import FooterNavItem from '@/components/commun/FooterApp/FooterNavItem.vue';
 </script>
 
 <template>
@@ -42,14 +43,10 @@
                 </ul>
             </div>
 
-            <div class="links">
-                <nav>
-                    <ul>
-                        <li>PAGE QUAI MARINA</li>
-                        <li>PAGE LOGEMENT TREMBLANT</li>
-                        <li>PAGE LOGEMENT ST-JÉRÔME</li>
-                    </ul>
-                </nav>
+            <div class="links" v-if="categorieData">  
+                <FooterNavItem v-for="categorie in categorieData" :key="categorie.id"
+                    :objCat="categorie" 
+                />
             </div>
 
         </div>
