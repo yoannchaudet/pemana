@@ -1,0 +1,7 @@
+.interface{
+    @include setFlex(row, start, start);
+
+    & .contenu{
+        margin-left: 130px;
+    }
+}
