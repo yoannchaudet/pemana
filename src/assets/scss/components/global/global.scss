@@ -4,8 +4,10 @@
 
 .interface{
     @include setFlex(row, start, start);
+    width: 100vw;
 
     & .contenu{
-        margin-left: 130px;
+        width: 100%;
+        margin-left: 115px;
     }
 }
