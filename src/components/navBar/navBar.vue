@@ -16,11 +16,15 @@
 
         <Slide width="500" :closeOnNavigation="true" >
 
-            <RouterLink to="/">Accueil</RouterLink>
-            <RouterLink to="/">Quai Marina Zool</RouterLink>
-            <RouterLink to="/">Logement Lac-Supérieur</RouterLink>
-            <RouterLink to="/">Logement Saint-Jérôme</RouterLink>
-            <RouterLink to="/">Projet à venir</RouterLink>
+            <RouterLink class="item-list" to="/">Accueil</RouterLink>
+            <RouterLink class="item-list" to="/">Quai Marina Zool</RouterLink>
+            <RouterLink class="item-list" to="/">Logement Lac-Supérieur</RouterLink>
+            <RouterLink class="item-list" to="/">Logement Saint-Jérôme</RouterLink>
+            <RouterLink class="item-list" to="/">Projet à venir</RouterLink>
+
+            <div class="wrapImg">
+                <img src="./../../assets/img/svg/logo_pemana.svg" alt="logo_pemana">
+            </div>
         
         </Slide>
 

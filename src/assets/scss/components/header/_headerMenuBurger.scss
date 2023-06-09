@@ -6,28 +6,28 @@
 
 .bm-burger-button {
 
-    //my add-on
-    position: relative !important;
-    top: 0 !important;
-    left: 25px !important;
-    z-index: 10 !important;
-    width: 30px !important;
-    height: 30px !important;
+  //my add-on
+  position: relative !important;
+  top: 0 !important;
+  left: 25px !important;
+  z-index: 10 !important;
+  width: 30px !important;
+  height: 30px !important;
 
-    &::after{
-        display: block;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        content: "";
-        right: -10px;
-        top: -10px;
-        z-index: -1;
-        border-radius: 100%;
-        background-color: rgb(176, 176, 176);
-    }
+  &::after{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    content: "";
+    right: -10px;
+    top: -10px;
+    z-index: -1;
+    border-radius: 100%;
+    background-color: rgb(176, 176, 176);
   }
+}
   .bm-burger-bars {
     width: 30px !important;
     height: 5px !important;
@@ -68,17 +68,17 @@
     z-index: 20 !important;
 
     &::after{
-        display: block;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        content: "";
-        right: -47px;
-        top: -24px;
-        z-index: -1;
-        border-radius: 100%;
-        background-color: rgb(176, 176, 176);
+      display: block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      padding: 0;
+      content: "";
+      right: -47px;
+      top: -24px;
+      z-index: -1;
+      border-radius: 100%;
+      background-color: rgb(176, 176, 176);
     }
   }
   .bm-menu {
@@ -95,45 +95,56 @@
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
 
     &::before{
-        display: block;
-        position: absolute;
-        width: 500px;
-        height: 275px;
-        padding: 0;
-        content: "";
-        left: 0;
-        top: 0;
-        z-index: -2;
-        background-color:white;
+      display: block;
+      position: absolute;
+      width: 500px;
+      height: 275px;
+      padding: 0;
+      content: "";
+      left: 0;
+      top: 0;
+      z-index: -2;
+      background-color:white;
     }
-    //doesnt work for some obscur reason
-    // &::after{
-    //     display: block;
-    //     position: absolute;
-    //     width: 500px;
-    //     height: 275px;
-    //     padding: 0;
-    //     content: "";
-    //     left: 0;
-    //     top: 0;
-    //     z-index: 10;
-    //     background: no-repeat url("./../../../../../src/assets/img/pdf/logo_pemana.pdf");
-    // }
   }
 
   .bm-overlay {
     background: rgba(0, 0, 0, 0.5) !important;
   }
   .bm-item-list {
+    position: relative;
     color: #b8b7ad;
     margin-top: 215px;
     margin-left: 0 !important;
     font-size: 20px;
-  }
-  .bm-item-list > * {
-    display: flex;
-    text-decoration: none;
-    padding: 15px 15px 15px 40px!important;
+
+    & .item-list{
+      display: flex;
+      text-decoration: none;
+      padding: 15px 15px 15px 40px!important;
+
+      &:hover{
+        transition: 150ms;
+        
+        padding-left: 50px !important;
+        font-weight: bold;
+        background-color: rgb(80, 80, 80);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    & .wrapImg{
+      position: absolute;
+      top: -200px;
+      left: 100px;
+      width: 300px;
+      padding: 0;
+
+      & img{
+        width: 100%;
+        object-fit: contain;
+      }
+    }
   }
   .bm-item-list > * > span {
     margin-left: 10px;
