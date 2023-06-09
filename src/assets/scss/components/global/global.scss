@@ -5,9 +5,18 @@
 .interface{
     @include setFlex(row, start, start);
     width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     & .contenu{
         width: 100%;
         margin-left: 115px;
     }
+}
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }

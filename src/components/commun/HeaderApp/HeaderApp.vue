@@ -6,22 +6,11 @@
     
     <div class="header">
 
-        <!-- HEADER -->
         <NavBar />
         
-        <div class="wrapLogo">
+        <RouterLink class="wrapLogo" to="/">
             <img src="./../../../assets/img/svg/logo_pemana_no_name.svg" alt="logo-pemana-sans-nom">
-        </div>
-
-        <!-- <div class="links">
-            <nav>
-                <ul>
-                    <li>PAGE QUAI MARINA</li>
-                    <li>PAGE LOGEMENT TREMBLANT</li>
-                    <li>PAGE LOGEMENT ST-JÉRÔME</li>
-                </ul>
-            </nav>
-        </div> -->
+        </RouterLink>
 
     </div>
 
