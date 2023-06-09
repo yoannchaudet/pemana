@@ -9,9 +9,11 @@
         <div class="wrapInfo">
 
             <div class="entreprise">
-                <div class="wrapLogo">
+
+                <RouterLink class="wrapLogo" to="/">
                     <img src="../../../assets/img/svg/logo_pemana.svg" alt="logo-pemana">
-                </div>
+                </RouterLink>
+                
                 <div class="reseauxSociaux">
                     <div class="wrapLogo">
                         <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
