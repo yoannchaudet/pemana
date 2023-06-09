@@ -8,16 +8,14 @@
 
 <template>
 
-    <div class="vignetteCategorie">
-
+    <RouterLink class="vignetteCategorie" :to="props.objCat.link">
         <div class="wrapImg">
             <img src="./../../assets/img/png/no-img.png" alt="">
         </div>
-
+    
         <p v-text="props.objCat.name"></p>
-
-    </div>
-
+    </RouterLink>
+    
 </template>
 
 <style scoped>
