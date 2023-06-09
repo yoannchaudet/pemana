@@ -8,6 +8,12 @@ const router = createRouter({
       name: 'home',
       component: () => import("@/views/PageAccueil.vue"),
     },   
+    
+    {
+      path: '/marina',
+      name: 'marina',
+      component: () => import("@/views/PageMarina.vue"),
+    },   
   ]
 })
 
