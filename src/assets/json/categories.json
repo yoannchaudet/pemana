@@ -7,16 +7,16 @@
     {
       "id": 1,
       "name": "Logement Lac-Supérieur",
-      "link": "/marina"
+      "link": "/lac-superieur"
     },
     {
       "id": 2,
       "name": "Logement Saint-Jérôme",
-      "link": "/marina"
+      "link": "/saint-jerome"
     },
     {
       "id": 3,
       "name": "Projet à venir",
-      "link": "/marina"
+      "link": "/a-venir"
     }
   ]

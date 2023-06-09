@@ -14,6 +14,21 @@ const router = createRouter({
       name: 'marina',
       component: () => import("@/views/PageMarina.vue"),
     },   
+    {
+      path: '/lac-superieur',
+      name: 'lac-superieur',
+      component: () => import("@/views/PageLacSup.vue"),
+    },   
+    {
+      path: '/saint-jerome',
+      name: 'saint-jerome',
+      component: () => import("@/views/PageSaintJe.vue"),
+    },   
+    {
+      path: '/a-venir',
+      name: 'a-venir',
+      component: () => import("@/views/PageAVenir.vue"),
+    },   
   ]
 })
 
