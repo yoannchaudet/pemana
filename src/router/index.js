@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'saint-jerome',
       component: () => import("@/views/PageSaintJe.vue"),
     },   
+    {
+      path: '/a-venir',
+      name: 'a-venir',
+      component: () => import("@/views/PageAVenir.vue"),
+    },   
   ]
 })
 
