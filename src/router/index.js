@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'marina',
       component: () => import("@/views/PageMarina.vue"),
     },   
+    {
+      path: '/lac-superieur',
+      name: 'lac-superieur',
+      component: () => import("@/views/PageLacSup.vue"),
+    },   
   ]
 })
 
