@@ -21,7 +21,7 @@
             <RouterLink class="item-list" to="/">Accueil</RouterLink>
             <RouterLink class="item-list" to="/marina">Quai Marina Zool</RouterLink>
             <RouterLink class="item-list" to="/lac-superieur">Logement Lac-Supérieur</RouterLink>
-            <RouterLink class="item-list" to="/">Logement Saint-Jérôme</RouterLink>
+            <RouterLink class="item-list" to="/saint-jerome">Logement Saint-Jérôme</RouterLink>
             <RouterLink class="item-list" to="/">Projet à venir</RouterLink>
 
             <div class="wrapImg">
