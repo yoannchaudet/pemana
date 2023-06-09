@@ -10,7 +10,7 @@
         <NavBar />
         
         <div class="wrapLogo">
-            <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+            <img src="./../../../assets/img/svg/logo_pemana_no_name.svg" alt="logo-pemana-sans-nom">
         </div>
 
         <!-- <div class="links">

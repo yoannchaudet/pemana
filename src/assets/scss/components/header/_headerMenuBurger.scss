@@ -8,8 +8,8 @@
 
   //my add-on
   position: relative !important;
-  top: 0 !important;
-  left: 25px !important;
+  top: 50px !important;
+  left: -2px !important;
   z-index: 10 !important;
   width: 30px !important;
   height: 30px !important;
@@ -25,7 +25,7 @@
     top: -10px;
     z-index: -1;
     border-radius: 100%;
-    background-color: rgb(176, 176, 176);
+    background-color: rgb(230, 230, 230);
   }
 }
   .bm-burger-bars {
@@ -78,7 +78,7 @@
       top: -24px;
       z-index: -1;
       border-radius: 100%;
-      background-color: rgb(176, 176, 176);
+      background-color: rgb(230, 230, 230);
     }
   }
   .bm-menu {
