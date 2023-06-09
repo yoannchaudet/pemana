@@ -2,6 +2,33 @@
     @include setFlex(column, start, center);
     width: 100%;
     min-height: 100vh;
+    margin-top: 100px;
 
-    
+    & .wrapInfo{
+        @include setFlex(column, center, center);
+    }
+
+    & .listeVignetteCat{
+        @include setFlex(row, space-around, start);
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: 50px;
+        
+
+        & .vignetteCategorie{
+            @include setFlex(column, start, center);
+            margin: 50px;
+        
+            & .wrapImg{
+                width: 400px;
+        
+                & img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 }
+
+

@@ -1,5 +1,6 @@
 <script setup>
-
+    import VignetteCategorie from '@/components/AccueilSite/VignetteCategorie.vue'
+    import categorieData from '@/assets/json/categories.json'
 </script>
 
 <template>
@@ -11,8 +12,10 @@
             <h3>Location de quai et de logement</h3>
         </div>
 
-        <div class="wrapImg">
-            <img src="../assets/img/png/no-img.png" alt="logo-pemana">
+        <div class="listeVignetteCat" v-if="categorieData">
+            <VignetteCategorie v-for="categorie in categorieData" :key="categorie.id"
+                :objCat="categorie" 
+            />
         </div>
 
     </div>
