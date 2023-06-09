@@ -51,21 +51,29 @@
             }
         }
 
-    }
-
-    & .links{
-        align-items: center;
-
-        & nav{
+        & .contact{
 
             & ul{
-                @include setFlex(column, center, start);
-                margin: 0;
+                padding: 0;
+                margin: 15px;
 
                 & li{
-                    padding: 1em;
+                    margin: 3px
+                }
+            }
+        }
+
+        & .navFooter{
+    
+            & .links{
+                @include setFlex(column, start, start);
+                margin-left: 15px;
+                
+                & p{
+                    margin: 3px;
                 }
             }
         }
     }
+
 }

@@ -43,11 +43,15 @@
                 </ul>
             </div>
 
-            <div class="links" v-if="categorieData">  
-                <FooterNavItem v-for="categorie in categorieData" :key="categorie.id"
-                    :objCat="categorie" 
-                />
+            <div class="navFooter">
+                <h3>Location</h3>
+                <div class="links" v-if="categorieData">  
+                    <FooterNavItem v-for="categorie in categorieData" :key="categorie.id"
+                        :objCat="categorie" 
+                    />
+                </div>
             </div>
+            
 
         </div>
 
