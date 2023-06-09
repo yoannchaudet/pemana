@@ -6,28 +6,28 @@
 
 .bm-burger-button {
 
-    //my add-on
-    position: relative !important;
-    top: 0 !important;
-    left: 25px !important;
-    z-index: 10 !important;
-    width: 30px !important;
-    height: 30px !important;
+  //my add-on
+  position: relative !important;
+  top: 0 !important;
+  left: 25px !important;
+  z-index: 10 !important;
+  width: 30px !important;
+  height: 30px !important;
 
-    &::after{
-        display: block;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        content: "";
-        right: -10px;
-        top: -10px;
-        z-index: -1;
-        border-radius: 100%;
-        background-color: rgb(176, 176, 176);
-    }
+  &::after{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    content: "";
+    right: -10px;
+    top: -10px;
+    z-index: -1;
+    border-radius: 100%;
+    background-color: rgb(176, 176, 176);
   }
+}
   .bm-burger-bars {
     width: 30px !important;
     height: 5px !important;
@@ -68,17 +68,17 @@
     z-index: 20 !important;
 
     &::after{
-        display: block;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        content: "";
-        right: -47px;
-        top: -24px;
-        z-index: -1;
-        border-radius: 100%;
-        background-color: rgb(176, 176, 176);
+      display: block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      padding: 0;
+      content: "";
+      right: -47px;
+      top: -24px;
+      z-index: -1;
+      border-radius: 100%;
+      background-color: rgb(176, 176, 176);
     }
   }
   .bm-menu {
@@ -95,16 +95,16 @@
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
 
     &::before{
-        display: block;
-        position: absolute;
-        width: 500px;
-        height: 275px;
-        padding: 0;
-        content: "";
-        left: 0;
-        top: 0;
-        z-index: -2;
-        background-color:white;
+      display: block;
+      position: absolute;
+      width: 500px;
+      height: 275px;
+      padding: 0;
+      content: "";
+      left: 0;
+      top: 0;
+      z-index: -2;
+      background-color:white;
     }
   }
 
