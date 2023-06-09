@@ -6,7 +6,6 @@
     
     <div class="header">
 
-        <!-- HEADER -->
         <NavBar />
         
         <RouterLink class="wrapLogo" to="/">
