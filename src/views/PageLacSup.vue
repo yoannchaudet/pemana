@@ -1,5 +1,5 @@
 <script setup>
-
+    import FooterApp from '@/components/commun/FooterApp/FooterApp.vue'
 </script>
 
 <template>
@@ -7,6 +7,8 @@
     <div class="lacSup">
 
         page Lac-Supérieur
+
+        <FooterApp />
 
     </div>
 

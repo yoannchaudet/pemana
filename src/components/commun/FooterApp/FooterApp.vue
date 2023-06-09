@@ -1,5 +1,6 @@
 <script setup>
-
+    import categorieData from '@/assets/json/categories.json'
+    import FooterNavItem from '@/components/commun/FooterApp/FooterNavItem.vue';
 </script>
 
 <template>
@@ -9,9 +10,11 @@
         <div class="wrapInfo">
 
             <div class="entreprise">
-                <div class="wrapLogo">
-                    <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
-                </div>
+
+                <RouterLink class="wrapLogo" to="/">
+                    <img src="../../../assets/img/svg/logo_pemana.svg" alt="logo-pemana">
+                </RouterLink>
+                
                 <div class="reseauxSociaux">
                     <div class="wrapLogo">
                         <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
@@ -40,15 +43,15 @@
                 </ul>
             </div>
 
-            <div class="links">
-                <nav>
-                    <ul>
-                        <li>PAGE QUAI MARINA</li>
-                        <li>PAGE LOGEMENT TREMBLANT</li>
-                        <li>PAGE LOGEMENT ST-JÉRÔME</li>
-                    </ul>
-                </nav>
+            <div class="navFooter">
+                <h3>Location</h3>
+                <div class="links" v-if="categorieData">  
+                    <FooterNavItem v-for="categorie in categorieData" :key="categorie.id"
+                        :objCat="categorie" 
+                    />
+                </div>
             </div>
+            
 
         </div>
 

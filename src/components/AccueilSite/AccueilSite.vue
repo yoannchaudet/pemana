@@ -8,7 +8,7 @@
     <div class="accueil-site">
 
         <div class="wrapInfo">
-            <h1>PEMENA</h1>
+            <h1>Pemana Inc.</h1>
             <h3>Location de quai et de logement</h3>
         </div>
 
