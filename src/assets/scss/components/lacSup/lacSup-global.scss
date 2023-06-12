@@ -1,0 +1,16 @@
+.accueil-lacSup{
+    @include setFlex(column, start, start);
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 100px;
+
+    & .affichage-lacSup{
+        width: 100%;
+        padding: 0 50px;
+
+        & .liste-vignette-logement{
+            @include setFlex(column, start, end);
+            width: 100%;
+        }
+    }
+}
