@@ -10,7 +10,7 @@
 
         <h1>Logements à Saint-Jérôme</h1>
 
-        <div class="listeVignetteLogement" v-if="saintJeData">
+        <div class="liste-vignette-logement" v-if="saintJeData">
             <VignetteLogement v-for="logement in saintJeData" :key="logement.id"
                 :objLogement="logement"
             />

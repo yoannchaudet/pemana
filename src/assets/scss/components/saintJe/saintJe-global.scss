@@ -7,5 +7,10 @@
     & .affichage-saintJe{
         width: 100%;
         padding: 0 50px;
+
+        & .liste-vignette-logement{
+            @include setFlex(column, start, end);
+            width: 100%;
+        }
     }
 }
