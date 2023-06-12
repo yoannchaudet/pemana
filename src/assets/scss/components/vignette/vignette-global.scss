@@ -23,6 +23,14 @@
         &::after{
             display: block;
         }
+
+        & .wrapImg{
+
+            & img{
+                transition-duration: 0.3s;
+                width: 120%;
+            }
+        }
         
         & .wrapInfo{
             
@@ -41,7 +49,10 @@
     }
 
     & .wrapImg{
+        @include setFlex(column, center, center);
         width: 250px;
+        height: 250px;
+        overflow: hidden;
 
         & img{
             width: 100%;
