@@ -88,7 +88,7 @@
     z-index: 1000; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgb(63, 63, 65); /* Black*/
+    background-color: var(--gris-fonce) !important; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
@@ -127,7 +127,7 @@
   }
   .bm-item-list {
     position: relative;
-    color: #b8b7ad;
+    color: white !important;
     margin-top: 215px;
     margin-left: 0 !important;
     font-size: 20px;
@@ -138,7 +138,7 @@
       padding: 15px 15px 15px 40px!important;
 
       &:hover{
-        transition: 150ms;
+        transition: 175ms;
         
         padding-left: 50px !important;
         font-weight: bold;
