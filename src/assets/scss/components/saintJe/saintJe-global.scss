@@ -4,13 +4,58 @@
     margin-top: 100px;
     
     & .affichage-saintJe{
+        @include setFlex(row, space-between, start);
         width: 100%;
         min-height: 100vh;
         padding: 0 50px;
 
+        & .titre{
+            position: relative;
+            width: 100%;
+            margin: 30px;
+
+            & h2{
+                position: fixed;
+                font-size: 2em;
+                font-weight: 300;
+            }
+            & h1{
+                position: fixed;
+                top: 175px;
+                font-size: 3em;
+                font-weight: 900;
+            }
+            &>.wrapImg{
+                position: fixed;
+                width: 300px;
+                top: 125px;
+                left: 200px;
+                z-index: -1;
+
+                & img{
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
         & .liste-vignette-logement{
             @include setFlex(column, start, end);
-            width: 100%;
+            position: relative;
+
+            &::after{
+                display: block;
+                position: absolute;
+                width: 102%;
+                height: 110%;
+                padding: 0;
+                content: "";
+                right: -1%;
+                bottom: 0;
+                z-index: -1;
+                background-color: rgb(250, 250, 250);
+            }
         }
     }
 }
+
