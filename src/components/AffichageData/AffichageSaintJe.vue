@@ -8,7 +8,13 @@
     
     <div class="affichage-saintJe">
 
-        <h1>Logements à Saint-Jérôme</h1>
+        <div class="titre">
+            <h2>Logements à</h2>
+            <h1>Saint-Jérôme</h1>
+            <div class="wrapImg">
+                <img src="./../../assets/img/svg/logo_pemana_light_plein.svg" alt="">
+            </div>
+        </div>
 
         <div class="liste-vignette-logement" v-if="saintJeData">
             <VignetteLogement v-for="logement in saintJeData" :key="logement.id"
