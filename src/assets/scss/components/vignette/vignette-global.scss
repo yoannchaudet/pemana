@@ -1,7 +1,7 @@
 .vignette-logement{
     @include setFlex(row, start, center);
     position: relative;
-    width: 60%;
+    width: 1100px;
     margin: 30px;
     border: red 1px solid;
     background-color: aquamarine;
@@ -32,5 +32,7 @@
         height: 75px;
 
         background-color: chartreuse;
+
+
     }
 }

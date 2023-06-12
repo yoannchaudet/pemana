@@ -4,13 +4,31 @@
     margin-top: 100px;
     
     & .affichage-lacSup{
+        @include setFlex(row, space-between, start);
         width: 100%;
         min-height: 100vh;
         padding: 0 50px;
 
+        & .titre{
+            position: relative;
+            width: 100%;
+            margin: 30px;
+
+            & h2{
+                position: fixed;
+                font-size: 2em;
+                font-weight: 300;
+            }
+            & h1{
+                position: fixed;
+                top: 175px;
+                font-size: 3em;
+                font-weight: 900;
+            }
+        }
+
         & .liste-vignette-logement{
             @include setFlex(column, start, end);
-            width: 100%;
         }
     }
 }
