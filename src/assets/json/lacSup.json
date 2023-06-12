@@ -5,7 +5,12 @@
         "adresse": "23 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "4 000$"
+        "prix": "4 000$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 1,
@@ -13,7 +18,12 @@
         "adresse": "25 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "1 365$"
+        "prix": "1 365$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 2,
@@ -21,7 +31,12 @@
         "adresse": "39 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "4 000$"
+        "prix": "4 000$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 3,
@@ -29,7 +44,12 @@
         "adresse": "41 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "1 365$"
+        "prix": "1 365$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 4,
@@ -37,7 +57,12 @@
         "adresse": "55 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "4 000$"
+        "prix": "4 000$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 5,
@@ -45,7 +70,12 @@
         "adresse": "57 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "1 365$"
+        "prix": "1 365$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 6,
@@ -53,7 +83,12 @@
         "adresse": "69 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "4 000$"
+        "prix": "4 000$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     },
     {
         "id": 7,
@@ -61,6 +96,11 @@
         "adresse": "71 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "1 365$"
+        "prix": "1 365$",
+        "images": [
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+            "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+        ]
     }
 ]

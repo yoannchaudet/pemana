@@ -8,7 +8,13 @@
     
     <div class="affichage-lacSup">
 
-        <h1>Logements au Lac-Supérieur</h1>
+        <div class="titre">
+            <h2>Logements au</h2>
+            <h1>Lac-Supérieur</h1>
+            <div class="wrapImg">
+                <img src="./../../assets/img/svg/logo_pemana_light_plein.svg" alt="">
+            </div>
+        </div>
 
         <div class="liste-vignette-logement" v-if="lacSupData">
             <VignetteLogement v-for="logement in lacSupData" :key="logement.id"
