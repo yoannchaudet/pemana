@@ -5,7 +5,11 @@
         "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "tbd"
+        "prix": "tbd",
+        "images": [
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+        ]
     },
     {
         "id": 1,
@@ -13,7 +17,11 @@
         "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "tbd"
+        "prix": "tbd",
+        "images": [
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+        ]
     },
     {
         "id": 2,
@@ -21,7 +29,11 @@
         "adresse": "1001 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "tbd"
+        "prix": "tbd",
+        "images": [
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+        ]
     },
     {
         "id": 3,
@@ -29,6 +41,10 @@
         "adresse": "1003 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "tbd"
+        "prix": "tbd",
+        "images": [
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
+            "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+        ]
     }
 ]
