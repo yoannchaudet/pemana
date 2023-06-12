@@ -1,7 +1,7 @@
 <script setup>
     import VignetteLogement from '@/components/AffichageData/VignetteLogement.vue'
     
-    import saintJeData from '@/assets/json/saintJe.json'
+    import lacSupData from '@/assets/json/lacSup.json'
 </script>
 
 <template>
@@ -10,8 +10,8 @@
 
         <h1>Logements au Lac-Supérieur</h1>
 
-        <div class="liste-vignette-logement" v-if="saintJeData">
-            <VignetteLogement v-for="logement in saintJeData" :key="logement.id"
+        <div class="liste-vignette-logement" v-if="lacSupData">
+            <VignetteLogement v-for="logement in lacSupData" :key="logement.id"
                 :objLogement="logement"
             />
         </div>
