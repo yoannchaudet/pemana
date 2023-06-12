@@ -11,7 +11,7 @@
     <div class="vignette-logement">
 
         <div class="wrapImg">
-            <img src="./../../assets/img/png/no-img.png" alt="img-placeholder">    
+            <img :src="props.objLogement.images[0]" alt="img-placeholder">
         </div>
 
         <div class="wrapInfo">
