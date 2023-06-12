@@ -1,5 +1,6 @@
 <script setup>
     import VignetteCategorie from '@/components/AccueilSite/VignetteCategorie.vue'
+    
     import categorieData from '@/assets/json/categories.json'
 </script>
 
