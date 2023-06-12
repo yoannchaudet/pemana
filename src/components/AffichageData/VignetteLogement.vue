@@ -15,8 +15,8 @@
         </div>
 
         <div class="wrapInfo">
-            <h2 v-text="props.objLogement.adresse"></h2>
-            <p v-text="props.objLogement.taille"></p>
+            <h2 v-text="props.objLogement.name"></h2>
+            <p v-text="props.objLogement.adresse"></p>
             <p v-text="props.objLogement.description"></p>
         </div>
 

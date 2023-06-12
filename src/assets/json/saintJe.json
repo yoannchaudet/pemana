@@ -1,33 +1,33 @@
 [
     {
         "id": 0,
-        "short": "569",
+        "name": "Rez-de-chaussée, 3 chambres",
         "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
-        "taille": "tbd",
+        "type": "tbd",
         "description": "Lorem ipsum doler si amet",
-        "prix": "tbd"      
+        "prix": "tbd"
     },
     {
         "id": 1,
-        "short": "569 a",
+        "name": "Rez-de-jardin, 3 chambres",
         "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
-        "taille": "tbd",
+        "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
     },
     {
         "id": 2,
-        "short": "1001",
+        "name": "1001",
         "adresse": "1001 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
-        "taille": "tbd",
+        "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
     },
     {
         "id": 3,
-        "short": "1003",
+        "name": "1003",
         "adresse": "1003 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
-        "taille": "tbd",
+        "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
     }
