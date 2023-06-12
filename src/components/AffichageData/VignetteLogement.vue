@@ -1,15 +1,15 @@
 <script setup>
 
     const props = defineProps({
-        objLogement : null
+        objLogement : null,
     })
-
+    
 </script>
 
 <template>
-    
-    <div class="vignette-logement">
-
+    <!-- props.objLogement.id -->
+    <RouterLink class="vignette-logement" :to="{name:'details', params: {id: props.objLogement.id}}">
+        
         <div class="wrapImg">
             <img :src="props.objLogement.images[0]" alt="img-placeholder">
         </div>
@@ -26,7 +26,7 @@
             <p>par mois</p>
         </div>
 
-    </div>
+    </RouterLink>
 
 </template>
 

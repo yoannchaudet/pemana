@@ -2,6 +2,8 @@
     import VignetteLogement from '@/components/AffichageData/VignetteLogement.vue'
     
     import location from '@/assets/json/location.json'
+
+    console.log(location)
 </script>
 
 <template>

@@ -1,0 +1,16 @@
+.details{
+    @include setFlex(column, start, start);
+    width: 100%;
+    margin-top: 100px;
+    
+    & .affichage-details{
+        @include setFlex(row, space-between, start);
+        width: 100%;
+        min-height: 100vh;
+        padding: 0 50px;
+
+        
+
+        
+    }
+}
