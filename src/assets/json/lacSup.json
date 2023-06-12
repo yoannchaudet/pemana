@@ -1,32 +1,64 @@
 [
     {
         "id": 0,
-        "name": "Rez-de-chaussée, 3 chambres",
-        "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
+        "name": "2 étages, 2 chambres",
+        "adresse": "23 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
     },
     {
         "id": 1,
-        "name": "Rez-de-jardin, 3 chambres",
-        "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
+        "name": "Rez-de-jardin, 1 chambre",
+        "adresse": "25 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
     },
     {
         "id": 2,
-        "name": "1001",
-        "adresse": "1001 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
+        "name": "2 étages, 2 chambres",
+        "adresse": "39 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
     },
     {
         "id": 3,
-        "name": "1003",
-        "adresse": "1003 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
+        "name": "Rez-de-jardin, 1 chambre",
+        "adresse": "41 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+        "type": "tbd",
+        "description": "Lorem ipsum doler si amet",
+        "prix": "tbd"
+    },
+    {
+        "id": 4,
+        "name": "2 étages, 2 chambres",
+        "adresse": "55 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+        "type": "tbd",
+        "description": "Lorem ipsum doler si amet",
+        "prix": "tbd"
+    },
+    {
+        "id": 5,
+        "name": "Rez-de-jardin, 1 chambre",
+        "adresse": "57 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+        "type": "tbd",
+        "description": "Lorem ipsum doler si amet",
+        "prix": "tbd"
+    },
+    {
+        "id": 6,
+        "name": "2 étages, 2 chambres",
+        "adresse": "69 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+        "type": "tbd",
+        "description": "Lorem ipsum doler si amet",
+        "prix": "tbd"
+    },
+    {
+        "id": 7,
+        "name": "Rez-de-jardin, 1 chambre",
+        "adresse": "71 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
         "type": "tbd",
         "description": "Lorem ipsum doler si amet",
         "prix": "tbd"
