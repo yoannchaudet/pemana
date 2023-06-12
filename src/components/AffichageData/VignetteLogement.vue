@@ -1,12 +1,28 @@
 <script setup>
 
+    const props = defineProps({
+        objLogement : null
+    })
+
 </script>
 
 <template>
     
-    <div class="vignette-saintJe">
+    <div class="vignette-logement">
 
-        je suis un logement a saint jérôme
+        <div class="wrapImg">
+            <img src="./../../assets/img/png/no-img.png" alt="img-placeholder">    
+        </div>
+
+        <div class="wrapInfo">
+            <h2 v-text="props.objLogement.adresse"></h2>
+            <p v-text="props.objLogement.taille"></p>
+            <p v-text="props.objLogement.description"></p>
+        </div>
+
+        <div class="wrapPrix">
+            <p v-text="props.objLogement.prix"></p>
+        </div>
 
     </div>
 

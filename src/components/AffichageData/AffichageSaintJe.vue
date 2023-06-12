@@ -10,7 +10,7 @@
 
         Logements à Saint-Jérôme
 
-        <div class="listeVignette-saintJe" v-if="saintJeData">
+        <div class="listeVignetteLogement" v-if="saintJeData">
             <VignetteLogement v-for="logement in saintJeData" :key="logement.id"
                 :objLogement="logement"
             />
