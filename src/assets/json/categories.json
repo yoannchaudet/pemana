@@ -1,22 +1,22 @@
 [
-    {
-      "id": 0,
-      "name": "Quai Marina Zool",
-      "link": "/marina"
-    },
-    {
-      "id": 1,
-      "name": "Logement Lac-Supérieur",
-      "link": "/lac-superieur"
-    },
-    {
-      "id": 2,
-      "name": "Logement Saint-Jérôme",
-      "link": "/saint-jerome"
-    },
-    {
-      "id": 3,
-      "name": "Projet à venir",
-      "link": "/a-venir"
-    }
-  ]
+  {
+    "id": 0,
+    "name": "Quai Marina Zool",
+    "link": "/marina"
+  },
+  {
+    "id": 1,
+    "name": "Logement Lac-Supérieur",
+    "link": "/lac-superieur"
+  },
+  {
+    "id": 2,
+    "name": "Logement Saint-Jérôme",
+    "link": "/saint-jerome"
+  },
+  {
+    "id": 3,
+    "name": "Projet à venir",
+    "link": "/a-venir"
+  }
+]

@@ -1,12 +1,13 @@
 <script setup>
+    import AffichageSaintJe from '@/components/AffichageData/AffichageSaintJe.vue'
     import FooterApp from '@/components/commun/FooterApp/FooterApp.vue'
 </script>
 
 <template>
     
-    <div class="saintJe">
+    <div class="accueil-saintJe">
 
-        page Saint-Jérôme
+        <AffichageSaintJe />
 
         <FooterApp />
 

@@ -1,0 +1,8 @@
+.accueil-saintJe{
+    @include setFlex(column, start, start);
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 100px;
+
+   
+}
