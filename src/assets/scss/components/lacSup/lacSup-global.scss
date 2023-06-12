@@ -29,6 +29,20 @@
 
         & .liste-vignette-logement{
             @include setFlex(column, start, end);
+            position: relative;
+
+            &::after{
+                display: block;
+                position: absolute;
+                width: 102%;
+                height: 110%;
+                padding: 0;
+                content: "";
+                right: -1%;
+                bottom: 0;
+                z-index: -1;
+                background-color: rgb(250, 250, 250);
+            }
         }
     }
 }
