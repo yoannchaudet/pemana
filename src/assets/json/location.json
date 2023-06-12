@@ -1,0 +1,157 @@
+{
+    "saintJe": [
+        {
+            "id": 0,
+            "name": "Rez-de-chaussée, 3 chambres",
+            "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "tbd",
+            "images": [
+                "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Rez-de-jardin, 3 chambres",
+            "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "tbd",
+            "images": [
+                "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "1001",
+            "adresse": "1001 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "tbd",
+            "images": [
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "1003",
+            "adresse": "1003 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "tbd",
+            "images": [
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+            ]
+        }
+    ],
+
+    "lacSup": [
+        {
+            "id": 0,
+            "name": "2 étages, 3 chambres + 1 lit",
+            "adresse": "23 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "4 000$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Rez-de-jardin, 2 chambre",
+            "adresse": "25 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "1 365$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "2 étages, 3 chambres + 1 lit",
+            "adresse": "39 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "4 000$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Rez-de-jardin, 2 chambre",
+            "adresse": "41 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "1 365$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "2 étages, 3 chambres + 1 lit",
+            "adresse": "55 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "4 000$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Rez-de-jardin, 2 chambre",
+            "adresse": "57 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "1 365$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "2 étages, 3 chambres + 1 lit",
+            "adresse": "69 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "4 000$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Rez-de-jardin, 2 chambre",
+            "adresse": "71 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
+            "type": "tbd",
+            "description": "Lorem ipsum doler si amet",
+            "prix": "1 365$",
+            "images": [
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front.jpg",
+                "./../../../src/assets/img/jpg/lacSup/69-71/69-71_front_garage.jpg"
+            ]
+        }
+    ]
+}

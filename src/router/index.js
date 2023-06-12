@@ -29,6 +29,12 @@ const router = createRouter({
       name: 'a-venir',
       component: () => import("@/views/PageAVenir.vue"),
     },   
+    
+    {
+      path: '/details',
+      name: 'details',
+      component: () => import("@/views/PageDetails.vue"),
+    }
   ]
 })
 
