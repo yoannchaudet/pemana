@@ -30,6 +30,7 @@
     
     <div class="details">
 
+        <!-- pas sur que ca soit nécessaire -->
         <AffichageDetails />
 
         <FooterApp />
