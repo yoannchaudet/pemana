@@ -25,6 +25,18 @@
                 font-size: 3em;
                 font-weight: 900;
             }
+            &>.wrapImg{
+                position: fixed;
+                width: 300px;
+                top: 125px;
+                left: 200px;
+                z-index: -1;
+
+                & img{
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
         }
 
         & .liste-vignette-logement{
