@@ -1,12 +1,13 @@
 <script setup>
+    import AffichageLacSup from '@/components/AffichageData/AffichageLacSup.vue'
     import FooterApp from '@/components/commun/FooterApp/FooterApp.vue'
 </script>
 
 <template>
     
-    <div class="lacSup">
+    <div class="accueil-lacSup">
 
-        page Lac-Supérieur
+        <AffichageLacSup />
 
         <FooterApp />
 

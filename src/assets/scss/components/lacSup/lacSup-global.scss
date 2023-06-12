@@ -1,9 +1,9 @@
-.accueil-saintJe{
+.accueil-lacSup{
     @include setFlex(column, start, start);
     width: 100%;
     margin-top: 100px;
     
-    & .affichage-saintJe{
+    & .affichage-lacSup{
         width: 100%;
         min-height: 100vh;
         padding: 0 50px;
