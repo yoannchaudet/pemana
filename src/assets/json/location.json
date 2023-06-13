@@ -2,6 +2,7 @@
     "saintJe": [
         {
             "id": 0,
+            "emplacement": "saintJe",
             "name": "Rez-de-chaussée, 3 chambres",
             "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
             "type": "tbd",
@@ -13,6 +14,7 @@
         },
         {
             "id": 1,
+            "emplacement": "saintJe",
             "name": "Rez-de-jardin, 3 chambres",
             "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
             "type": "tbd",
@@ -24,6 +26,7 @@
         },
         {
             "id": 2,
+            "emplacement": "saintJe",
             "name": "1001",
             "adresse": "1001 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
             "type": "tbd",
@@ -36,6 +39,7 @@
         },
         {
             "id": 3,
+            "emplacement": "saintJe",
             "name": "1003",
             "adresse": "1003 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
             "type": "tbd",
@@ -51,6 +55,7 @@
     "lacSup": [
         {
             "id": 0,
+            "emplacement": "lacSup",
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "23 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -64,6 +69,7 @@
         },
         {
             "id": 1,
+            "emplacement": "lacSup",
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "25 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -77,6 +83,7 @@
         },
         {
             "id": 2,
+            "emplacement": "lacSup",
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "39 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -90,6 +97,7 @@
         },
         {
             "id": 3,
+            "emplacement": "lacSup",
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "41 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -103,6 +111,7 @@
         },
         {
             "id": 4,
+            "emplacement": "lacSup",
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "55 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -116,6 +125,7 @@
         },
         {
             "id": 5,
+            "emplacement": "lacSup",
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "57 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -129,6 +139,7 @@
         },
         {
             "id": 6,
+            "emplacement": "lacSup",
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "69 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
@@ -142,6 +153,7 @@
         },
         {
             "id": 7,
+            "emplacement": "lacSup",
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "71 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
