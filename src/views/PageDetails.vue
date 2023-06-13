@@ -17,13 +17,9 @@
       emplacement: null,
     });
 
-
     onBeforeMount(() => {
         data.id = routeId.value;
-        data.emplacement = routeEmplacement.value;
-
-        console.log(location[data.emplacement][data.id])
-        
+        data.emplacement = routeEmplacement.value;       
     })
 
 
