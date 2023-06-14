@@ -7,11 +7,11 @@
 </script>
 
 <template>
-    <!-- props.objLogement.id -->
-    <RouterLink class="vignette-logement" :to="{name:'details', params: {id: props.objLogement.id}}">
+    
+    <RouterLink class="vignette-logement" :to="{name:'details', params: {emplacement: props.objLogement.emplacement, id: props.objLogement.id}}">
         
         <div class="wrapImg">
-            <img :src="props.objLogement.images[0]" alt="img-placeholder">
+            <img :src="props.objLogement.images[0]" alt="img-principale">
         </div>
 
         <div class="wrapInfo">
