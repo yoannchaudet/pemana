@@ -9,7 +9,9 @@
     import location from '@/assets/json/location.json'    
 
     import { Swiper, SwiperSlide } from 'swiper/vue'
+    import { Navigation, Pagination, Virtual } from 'swiper'
     import 'swiper/css'
+    import 'swiper/css/bundle'
 
     const route = useRoute();
     const routeEmplacement = computed(()=> route.params.emplacement)
@@ -36,23 +38,13 @@
 
             <div class="fiche-image">
 
-                <Swiper :slidesPerView="1" :spaceBetween="50">
+                <Swiper :slidesPerView="1" :spaceBetween="50" :modules="[Navigation, Pagination, Virtual]" navigation :pagination="{ clickable: true, dynamicBullets: true}" grab-cursor virtual>
                     <SwiperSlide v-for="image in location[data.emplacement][data.id].images" :key="image.id">
                         <AffichageDetailsImages 
                             :objImage="image"
                         />
                     </SwiperSlide>
                 </Swiper>
-
-                <!-- <div class="wrapImg">
-                    <img :src="location[data.emplacement][data.id].images[0]" alt="">
-                </div>
-                <div class="carousel-image">
-                    <AffichageDetailsImages v-for="image in location[data.emplacement][data.id].images"
-                        :key="image.id"
-                        :objImage="image"
-                    />
-                </div> -->
             </div>
 
             <div class="wrapInfo">

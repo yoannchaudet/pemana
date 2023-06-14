@@ -10,7 +10,7 @@
     
     <div class="wrapImg">
 
-        <img :src="props.objImage" alt="img-carousel">
+        <img :src="props.objImage" alt="img-carousel" unselectable="on">
 
     </div>
 

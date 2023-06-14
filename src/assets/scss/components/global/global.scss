@@ -20,3 +20,10 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+
+
+img {
+    pointer-events: none;
+    user-select: none;
+  }
