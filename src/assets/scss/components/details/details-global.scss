@@ -16,16 +16,7 @@
 
             & .swiper-wrapper{
                 width: 500px;
-                height: 530px;
-
-                // WHY NO WORKY
-                & .swiper-button-next{
-                    color: fuchsia !important;
-
-                    &::after{
-                        color: chartreuse !important;
-                    }
-                }
+                height: 500px;
 
                 & .wrapImg{
                     width: 500px;
@@ -88,4 +79,23 @@
 
         
     }
+}
+
+.swiper-button-next, .swiper-button-prev{    
+
+    &::after{
+        color: white !important;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--gris-fonce);
+        width: 100px !important;
+    }
+}
+.swiper-pagination{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--vert-lime) !important;
+    opacity: 1 !important;
 }
