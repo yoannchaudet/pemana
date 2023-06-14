@@ -14,6 +14,24 @@
             position: relative;
             width: 500px;
 
+            & .swiper-wrapper{
+                width: 400px;
+                height: 400px;
+                background-color: fuchsia;
+
+                & .wrapImg{
+                    width: 400px;
+                    height: 400px;
+                    overflow: hidden;
+    
+                    & img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
             &>.wrapImg{
                 width: 400px;
                 height: 400px;
