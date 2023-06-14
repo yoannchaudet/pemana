@@ -1,10 +1,22 @@
 .vignette-logement{
     @include setFlex(row, start, center);
     position: relative;
-    width: 1100px;
+    width: 600px;
     margin: 30px;
     background-color: white;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.1);
+
+    @include breakpoint-min(1200){
+        width: 700px;
+        height: 200px;
+    }
+    @include breakpoint-min(1400){
+        width: 800px;
+        height: 250px;
+    }
+    @include breakpoint-min(1800){
+        width: 1100px;
+    }
 
     &::after{
         display: none;
@@ -33,7 +45,7 @@
         }
         
         & .wrapInfo{
-            
+         
             & h2{
                 transition-duration: 0.3s;
                 color: var(--vert-lime);
@@ -48,11 +60,23 @@
         }
     }
 
-    & .wrapImg{
+    &>.wrapImg{
         @include setFlex(column, center, center);
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        min-width: 150px;
+        height: 150px;
         overflow: hidden;
+
+        @include breakpoint-min(1200){
+            width: 200px;
+            min-width: 200px;
+            height: 200px;
+        }
+        @include breakpoint-min(1400){
+            width: 250px;
+            min-width: 250px;
+            height: 250px;
+        }
 
         & img{
             width: 100%;
@@ -64,13 +88,45 @@
     & .wrapInfo{
         @include setFlex(column, start, space-around);
         margin: 5px 10px;
+        width: auto;
 
         & h2{
-            font-size: 2em;
-            font-weight: 700
+            font-size: 1.2em;
+            font-weight: 700;
+
+            @include breakpoint-min(1200){
+                font-size: 1.5em;
+            }
+            @include breakpoint-min(1400){
+                font-size: 2em;
+            }
         }
         & h3{
             font-size: 1.5em
+        }
+        &>p:last-of-type{
+            position: relative;
+            max-height: 50px;
+            width: 90%;
+            overflow: hidden;
+            text-align: justify;
+
+            @include breakpoint-min(1400){
+                max-height: 75px;
+            }
+
+            &::after{
+                display: block;
+                position: absolute;
+                content: "";
+                height: 20px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+                background: rgb(255,255,255);
+                background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+            }
         }
     }
 
