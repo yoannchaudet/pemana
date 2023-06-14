@@ -52,6 +52,9 @@
                 <h3 v-text="location[data.emplacement][data.id].adresse"></h3>
                 <h2 v-text="location[data.emplacement][data.id].type"></h2>
                 <p v-text="location[data.emplacement][data.id].description"></p>
+                <h2>
+                    Intéressé ?<span class="material-symbols-outlined">call</span>(514) 880-3770
+                </h2>
                 
                 <div class="wrapPrix">
                     <h1 v-text="location[data.emplacement][data.id].prix"></h1>
