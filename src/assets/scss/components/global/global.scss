@@ -10,7 +10,13 @@
 
     & .contenu{
         width: 100%;
-        margin-left: 115px;
+        margin-top: 100px;
+        margin-left: 0;
+
+        @include breakpoint-min(768){
+            margin-top: 0;
+            margin-left: 115px;
+        }
     }
 }
 

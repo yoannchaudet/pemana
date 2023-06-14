@@ -8,11 +8,16 @@
 
   //my add-on
   position: relative !important;
-  top: 50px !important;
-  left: -2px !important;
+  top: 35px !important;
+  left: -220px !important;
   z-index: 10 !important;
   width: 30px !important;
   height: 30px !important;
+
+  @include breakpoint-min(768){
+    top: 50px !important;
+    left: -2px !important;
+  }
 
   &::after{
     display: block;
