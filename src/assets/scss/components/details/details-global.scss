@@ -1,80 +1,80 @@
 .details{
     @include setFlex(column, start, start);
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0;
+
+    @include breakpoint-min(992){
+        margin-top: 100px;
+    }
     
     & .affichage-details{
-        @include setFlex(row, start, start);
+        @include setFlex(column, center, center);
         width: 100%;
         min-height: 100vh;
-        padding: 0 50px;
+        padding: 0 20px;
+
+        @include breakpoint-min(768){
+            @include setFlex(row, center, center);
+            padding: 0 20px;
+        }
+        @include breakpoint-min(992){
+            @include setFlex(row, start, start);
+            padding: 0 50px;
+        }
 
         & .fiche-image{
             @include setFlex(column, center, center);
             position: relative;
-            width: 500px;
-            margin: 0 30px;
+            margin: 0;
             background-color: rgb(250, 250, 250);
             box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.3);
 
-            & .swiper-wrapper{
-                width: 500px;
-                height: 500px;
+            @include breakpoint-min(1200){
+                margin: 0 15px;
+            }
+            @include breakpoint-min(1400){
+                margin: 0 30px;
+            }
 
-                & .wrapImg{
+            & .swiper-wrapper{
+                width: 300px;
+                height: 300px;
+
+                @include breakpoint-min(992){
+                    width: 400px;
+                    height: 400px;
+                }
+                @include breakpoint-min(1200){
+                    width: 450px;
+                    height: 450px;
+                }
+                @include breakpoint-min(1400){
                     width: 500px;
                     height: 500px;
-                    overflow: hidden;
-    
-                    & img{
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
                 }
-            }
-
-            &>.wrapImg{
-                width: 400px;
-                height: 400px;
-                overflow: hidden;
-
-                &:hover{
-                    & img{
-                        transition-duration: 0.3s;
-                        transform: scale(1.1);
-                    }
-                }
-
-                & img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
-
-            & .carousel-image{
-                @include setFlex(row, space-between, center);
-                position: relative;
-                width: 400px;
-                margin: 10px 0;
 
                 & .wrapImg{
-                    width: 100px;
-                    height: 100px;
+                    width: 300px;
+                    height: 300px;
+                    overflow: hidden;
 
-                    &:hover{
-                        & img{
-                            transition-duration: 0.3s;
-                            opacity: 1;
-                        }
+                    @include breakpoint-min(992){
+                        width: 400px;
+                        height: 400px;
+                    }
+                    @include breakpoint-min(1200){
+                        width: 450px;
+                        height: 450px;
+                    }
+                    @include breakpoint-min(1400){
+                        width: 500px;
+                        height: 500px;
                     }
     
                     & img{
                         width: 100%;
                         height: 100%;
                         object-fit: cover;
-                        opacity: 0.7;
                     }
                 }
             }
@@ -83,29 +83,45 @@
         & .wrapInfo{
             @include setFlex(column, start, start);
             position: relative;
-            margin: 60px 30px;
+            margin: 30px 15px;
             padding: 20px;
             width: 100%;
             height: 100%;
 
+            @include breakpoint-min(1200){
+                margin: 50px 25px;
+            }
+            @include breakpoint-min(1400){
+                margin: 60px 30px;
+            }
+
             &::after{
                 display: block;
                 position: absolute;
-                width: 200%;
+                width: 200vw;
                 height: 100%;
                 padding: 0;
                 content: "";
-                right: 0;
+                right: -50%;
                 top: 0;
                 z-index: -1;
                 background-color: rgb(250, 250, 250);
                 overflow: hidden;
+
+                @include breakpoint-min(992){
+                    right: 0;
+                }
             }
 
             &>h1{
-                font-size: 2em;
+                width: 70%;
+                font-size: 1.5em;
                 font-weight: 900;
                 color: var(--vert-lime);
+
+                @include breakpoint-min(1400){
+                    font-size: 2em;
+                }
             }
             &>h3{
                 margin: 30px 0;
@@ -123,27 +139,82 @@
             & p{
                 margin: 15px 0;
             }
-            & span{
-                padding: 0 10px 0 30px;
+            & .interesse{
+                @include setFlex(row, center, start);
+
+                @include breakpoint-min(768){
+                    @include setFlex(column, center, start);
+                }
+                @include breakpoint-min(992){
+                    @include setFlex(row, center, start);
+                }
+
+                &>h2{
+                    @include setFlex(row, center, center);
+                    margin: 0 0 5px 0;
+                    font-size: 1em;
+                    font-weight: 600;
+                    color: black;
+                    
+                    &>span{
+                        padding: 0 10px 0 30px;
+
+                        @include breakpoint-min(768){
+                            padding: 0;
+                        }
+                        @include breakpoint-min(992){
+                            padding: 0 10px 0 30px;
+                        }
+                    }
+                }
             }
 
             & .wrapPrix{
                 @include setFlex(column, center, center);
                 position: absolute;
-                top: -20px;
-                right: 20px;
-                padding: 20px;
+                min-width: 100px;
+                top: -10px;
+                right: 10px;
+                padding: 10px;
                 background-color: var(--gris-fonce);
 
+                @include breakpoint-min(768){
+                    right: 110%;
+                }
+                @include breakpoint-min(992){
+                    right: 10px;
+                }
+                @include breakpoint-min(1400){
+                    top: -20px;
+                    right: 20px;
+                    padding: 20px;
+                }
+
                 &>h1{
-                    font-size: 1.5em;
+                    font-size: 1em;
                     font-weight: 900;
                     color: white;
+
+                    @include breakpoint-min(992){
+                        font-size: 1.3em;
+                    }
+                    @include breakpoint-min(1400){
+                        font-size: 1.5em;
+                    }
                 }
                 &>h2{
-                    font-size: 1em;
+                    @include setFlex(row, start, start);
+                    flex-wrap: nowrap;
+                    font-size: 0.5em;
                     font-weight: 600;
                     color: white;
+
+                    @include breakpoint-min(992){
+                        font-size: 0.8em;
+                    }
+                    @include breakpoint-min(1400){
+                        font-size: 1em;
+                    }
                 }
             }
         }
