@@ -3,13 +3,13 @@
         {
             "id": 0,
             "emplacement": "saintJe",
-            "name": "Rez-de-chaussée, 3 chambres",
+            "name": "Rez-de-chaussée",
             "adresse": "569 Rue Laviolette, Saint-Jérôme",
             "code-postal": "QC J7Y 2V4",
-            "room": "tbd",
-            "bathroom": "tbd",
+            "room": "2",
+            "bathroom": "1",
             "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
-            "prix": "tbd",
+            "prix": "1 800$",
             "images": [
                 "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg",
                 "./../../../src/assets/img/jpg/saintJe/569/569_00.jpg",
@@ -25,13 +25,13 @@
         {
             "id": 1,
             "emplacement": "saintJe",
-            "name": "Rez-de-jardin, 3 chambres",
+            "name": "Rez-de-jardin",
             "adresse": "569 Rue Laviolette, Saint-Jérôme",
             "code-postal": "QC J7Y 2V4",
-            "room": "tbd",
-            "bathroom": "tbd",
+            "room": "4",
+            "bathroom": "1",
             "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
-            "prix": "tbd",
+            "prix": "2 400$",
             "images": [
                 "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg"
             ]
@@ -42,10 +42,10 @@
             "name": "1001",
             "adresse": "1001 Rue Ruel, Saint-Jérôme",
             "code-postal": "QC J5L 2H6",
-            "room": "tbd",
-            "bathroom": "tbd",
+            "room": "2",
+            "bathroom": "1",
             "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
-            "prix": "tbd",
+            "prix": "1 900$",
             "images": [
                 "./../../../src/assets/img/jpg/saintJe/1003/1003_00.jpg",
                 "./../../../src/assets/img/jpg/saintJe/1003/1003_01.jpg"
@@ -57,10 +57,10 @@
             "name": "1003",
             "adresse": "1003 Rue Ruel, Saint-Jérôme",
             "code-postal": "QC J5L 2H6",
-            "room": "tbd",
-            "bathroom": "tbd",
+            "room": "4",
+            "bathroom": "1½",
             "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
-            "prix": "tbd",
+            "prix": "2 600$",
             "images": [
                 "./../../../src/assets/img/jpg/saintJe/1003/1003_00.jpg",
                 "./../../../src/assets/img/jpg/saintJe/1003/1003_01.jpg",
