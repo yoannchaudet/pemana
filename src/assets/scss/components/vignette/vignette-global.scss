@@ -1,21 +1,17 @@
 .vignette-logement{
     @include setFlex(row, start, center);
     position: relative;
-    width: 600px;
+    width: 95%;
     margin: 30px;
+    border-radius: 50px 0 0 0;
     background-color: white;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.1);
 
     @include breakpoint-min(1200){
-        width: 700px;
         height: 200px;
     }
     @include breakpoint-min(1400){
-        width: 800px;
         height: 250px;
-    }
-    @include breakpoint-min(1800){
-        width: 1100px;
     }
 
     &::after{
@@ -27,10 +23,12 @@
         left: 0;
         right: 0;
         z-index: 1;
+        border-radius: 50px 0 0 0;
         background-color: rgba(0, 0, 0, 0.04);
     }
 
     &:hover{
+        box-shadow: 5px 5px 5px rgba(102, 153, 51, 0.5);
         
         &::after{
             display: block;
@@ -62,19 +60,18 @@
 
     &>.wrapImg{
         @include setFlex(column, center, center);
-        width: 150px;
-        min-width: 150px;
+        width: auto;
+        min-width: 200px;
         height: 150px;
         overflow: hidden;
+        border-radius: 50px 0 0 0;
 
         @include breakpoint-min(1200){
-            width: 200px;
-            min-width: 200px;
+            min-width: 250px;
             height: 200px;
         }
         @include breakpoint-min(1400){
-            width: 250px;
-            min-width: 250px;
+            min-width: 300px;
             height: 250px;
         }
 
@@ -87,12 +84,13 @@
 
     & .wrapInfo{
         @include setFlex(column, start, space-around);
-        margin: 5px 10px;
+        margin: 10px 10px;
         width: auto;
 
         & h2{
             font-size: 1.2em;
             font-weight: 700;
+            margin-bottom: 4px;
 
             @include breakpoint-min(1200){
                 font-size: 1.5em;
@@ -101,8 +99,28 @@
                 font-size: 2em;
             }
         }
-        & h3{
-            font-size: 1.5em
+        & h3 {
+            width: 50%;
+            font-size: 0.6em;
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: var(--gris-fonce);
+
+            @include breakpoint-min(1200){
+                font-size: 0.8em;
+            }
+            @include breakpoint-min(1400){
+                font-size: 1em;
+            }
+        }
+
+        & .type{
+            @include setFlex(row, start, start);
+            margin-bottom: 8px;
+            & p{
+                margin: 0 20px 0 5px;
+                font-weight: 700;
+            }
         }
         &>p:last-of-type{
             position: relative;
@@ -110,9 +128,11 @@
             width: 90%;
             overflow: hidden;
             text-align: justify;
+            font-size: 0.7em;
 
             @include breakpoint-min(1400){
                 max-height: 75px;
+                font-size: 0.9em;
             }
 
             &::after{

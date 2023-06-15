@@ -16,8 +16,13 @@
 
         <div class="wrapInfo">
             <h2 v-text="props.objLogement.name"></h2>
-            <p v-text="props.objLogement.adresse"></p>
-            <h3 v-text="props.objLogement.type"></h3>
+            <h3 v-text="props.objLogement.adresse"></h3>
+            <div class="type">
+                <span class="material-symbols-outlined">bed</span>
+                <p v-text="props.objLogement.room"></p>
+                <span class="material-symbols-outlined">bathtub</span>
+                <p v-text="props.objLogement.bathroom"></p>
+            </div>
             <p v-text="props.objLogement.description"></p>
         </div>
 
