@@ -50,7 +50,12 @@
             <div class="wrapInfo">
                 <h1 v-text="location[data.emplacement][data.id].name"></h1>
                 <h3 v-text="location[data.emplacement][data.id].adresse"></h3>
-                <h2 v-text="location[data.emplacement][data.id].type"></h2>
+                <div class="type">
+                    <span class="material-symbols-outlined">bed</span>
+                    <p v-text="location[data.emplacement][data.id].room"></p>
+                    <span class="material-symbols-outlined">bathtub</span>
+                    <p v-text="location[data.emplacement][data.id].bathroom"></p>
+                </div>
                 <p v-text="location[data.emplacement][data.id].description"></p>
                 <div class="interesse">
                     <h2>Intéressé ?</h2>
