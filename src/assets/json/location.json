@@ -11,15 +11,13 @@
             "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "1 800$",
             "images": [
-                "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg",
                 "./../../../src/assets/img/jpg/saintJe/569/569_00.jpg",
-                "./../../../src/assets/img/jpg/saintJe/569/569_01.jpg",
+                
                 "./../../../src/assets/img/jpg/saintJe/569/569_02.jpg",
                 "./../../../src/assets/img/jpg/saintJe/569/569_03.jpg",
                 "./../../../src/assets/img/jpg/saintJe/569/569_04.jpg",
                 "./../../../src/assets/img/jpg/saintJe/569/569_05.jpg",
-                "./../../../src/assets/img/jpg/saintJe/569/569_06.jpg",
-                "./../../../src/assets/img/jpg/saintJe/569/569_07.jpg"
+                "./../../../src/assets/img/jpg/saintJe/569/569_06.jpg"
             ]
         },
         {
@@ -33,7 +31,6 @@
             "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "2 400$",
             "images": [
-                "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg"
             ]
         },
         {
