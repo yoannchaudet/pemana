@@ -6,10 +6,18 @@
             "name": "Rez-de-chaussée, 3 chambres",
             "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "tbd",
             "images": [
-                "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg"
+                "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_00.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_01.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_02.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_03.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_04.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_05.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_06.jpg",
+                "./../../../src/assets/img/jpg/saintJe/569/569_07.jpg"
             ]
         },
         {
@@ -18,7 +26,7 @@
             "name": "Rez-de-jardin, 3 chambres",
             "adresse": "569 Rue Laviolette, Saint-Jérôme, QC J7Y 2V4",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "tbd",
             "images": [
                 "./../../../src/assets/img/jpg/saintJe/569/569_front.jpg"
@@ -30,11 +38,11 @@
             "name": "1001",
             "adresse": "1001 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "tbd",
             "images": [
-                "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
-                "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_00.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_01.jpg"
             ]
         },
         {
@@ -43,11 +51,36 @@
             "name": "1003",
             "adresse": "1003 Rue Ruel, Saint-Jérôme, QC J5L 2H6",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "tbd",
             "images": [
-                "./../../../src/assets/img/jpg/saintJe/1003/1003_side.jpg",
-                "./../../../src/assets/img/jpg/saintJe/1003/1003_front.jpg"
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_00.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_01.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_02.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_03.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_04.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_05.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_06.jpg",
+                
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_08.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_09.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_10.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_11.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_12.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_13.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_14.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_15.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_16.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_17.jpg",
+                
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_19.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_20.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_21.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_22.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_23.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_24.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_25.jpg",
+                "./../../../src/assets/img/jpg/saintJe/1003/1003_26.jpg"
             ]
         }
     ],
@@ -87,7 +120,7 @@
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "39 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "4 000$",
             "images": [
                 "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
@@ -101,7 +134,7 @@
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "41 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "1 365$",
             "images": [
                 "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
@@ -115,7 +148,7 @@
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "55 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "4 000$",
             "images": [
                 "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
@@ -129,7 +162,7 @@
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "57 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "1 365$",
             "images": [
                 "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
@@ -143,7 +176,7 @@
             "name": "2 étages, 3 chambres + 1 lit",
             "adresse": "69 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "4 000$",
             "images": [
                 "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
@@ -157,7 +190,7 @@
             "name": "Rez-de-jardin, 2 chambre",
             "adresse": "71 Chem. Brunette, Lac-Supérieur, QC J0T 1J0",
             "type": "tbd",
-            "description": "Lorem ipsum doler si amet",
+            "description": "***FAUSSE DESCRIPTION*** Ce condo spacieux propose un agencement sur deux étages, comprenant trois chambres à coucher. Élégamment conçu, il offre une ambiance moderne et accueillante. Les locataires bénéficient d'une sélection complète d'équipements, avec tous les services inclus. Situé dans un quartier paisible, cet espace offre un environnement confortable pour se détendre et se ressourcer.",
             "prix": "1 365$",
             "images": [
                 "./../../../src/assets/img/jpg/lacSup/69-71/69-71_side.jpg",
