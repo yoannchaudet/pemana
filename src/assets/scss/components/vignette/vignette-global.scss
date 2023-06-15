@@ -2,6 +2,7 @@
     @include setFlex(row, start, center);
     position: relative;
     width: 95%;
+    height: 150px;
     margin: 30px;
     border-radius: 50px 0 0 0;
     background-color: white;
@@ -61,17 +62,17 @@
     &>.wrapImg{
         @include setFlex(column, center, center);
         width: auto;
-        min-width: 200px;
+        width: 200px;
         height: 150px;
         overflow: hidden;
         border-radius: 50px 0 0 0;
 
         @include breakpoint-min(1200){
-            min-width: 250px;
+            width: 250px;
             height: 200px;
         }
         @include breakpoint-min(1400){
-            min-width: 300px;
+            width: 300px;
             height: 250px;
         }
 
@@ -86,6 +87,8 @@
         @include setFlex(column, start, space-around);
         margin: 10px 10px;
         width: auto;
+        font-size: 1em;
+        width: 70%;
 
         & h2{
             font-size: 1.2em;
@@ -123,13 +126,17 @@
             }
         }
         &>p:last-of-type{
+            display: none;
             position: relative;
             max-height: 50px;
-            width: 90%;
+            width: 100%;
             overflow: hidden;
             text-align: justify;
             font-size: 0.7em;
-
+            
+            @include breakpoint-min(992){
+                display: block;
+            }
             @include breakpoint-min(1400){
                 max-height: 75px;
                 font-size: 0.9em;
@@ -158,8 +165,14 @@
         width: 100px;
         height: 75px;
         z-index: 10;
-
         background-color: var(--gris-fonce);
+
+        @include breakpoint-min(992){
+            display: block;
+        }
+        @include breakpoint-min(992){
+            width: 100px;
+        }
 
         & p{
             color: white;
