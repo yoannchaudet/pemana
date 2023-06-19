@@ -1,0 +1,7 @@
+.a-venir{
+
+    & .affichage-a-venir{
+        @include setFlex(column, center, center);
+        min-height: 100vh;
+    }
+}
