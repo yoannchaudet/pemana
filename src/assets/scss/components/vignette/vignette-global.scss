@@ -162,16 +162,15 @@
         position: absolute;
         top: -15px;
         right: 15px;
-        width: 100px;
-        height: 75px;
+        padding: 5px;
         z-index: 10;
         background-color: var(--gris-fonce);
 
         @include breakpoint-min(992){
-            display: block;
+            padding: 7px;
         }
-        @include breakpoint-min(992){
-            width: 100px;
+        @include breakpoint-min(1200){
+            padding: 10px;
         }
 
         & p{
