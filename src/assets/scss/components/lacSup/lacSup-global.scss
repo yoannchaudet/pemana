@@ -7,8 +7,11 @@
         @include setFlex(row, space-between, start);
         width: 100%;
         min-height: 100vh;
-        padding: 0 30px;
+        padding: 0;
 
+        @include breakpoint-min(992){
+            padding: 0 30px;
+        }
         @include breakpoint-min(1600){
             padding: 0 50px;
         }
@@ -21,20 +24,27 @@
             & h2{
                 position: fixed;
                 top: 140px;
-                font-size: 1.5em;
+                font-size: 1em;
                 font-weight: 300;
 
+                @include breakpoint-min(1200){
+                    font-size: 1.5em;
+                }
                 @include breakpoint-min(1400){
                     font-size: 2em;
                 }
             }
             & h1{
                 position: fixed;
-                top: 165px;
-                font-size: 2.5em;
+                top: 155px;
+                font-size: 2em;
                 font-weight: 900;
                 color: var(--vert-lime);
-
+                
+                @include breakpoint-min(1200){
+                    top: 165px;
+                    font-size: 2.5em;
+                }
                 @include breakpoint-min(1400){
                     top: 175px;
                     font-size: 3em;
@@ -42,11 +52,14 @@
             }
             &>.wrapImg{
                 position: fixed;
-                width: 250px;
+                width: 200px;
                 top: 125px;
                 left: 200px;
                 z-index: -1;
 
+                @include breakpoint-min(1200){
+                    width: 250px;
+                }
                 @include breakpoint-min(1400){
                     width: 300px;
                 }
@@ -73,7 +86,8 @@
                 right: 1%; //why? good question
                 bottom: 0;
                 z-index: -1;
-                background-color: rgb(250, 250, 250);
+                // background-color: rgb(250, 250, 250);
+                background-color: fuchsia;
             }
         }
     }

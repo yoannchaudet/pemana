@@ -3,16 +3,22 @@
     position: relative;
     width: 95%;
     height: 150px;
-    margin: 30px;
+    margin: 15px 0;
     border-radius: 50px 0 0 0;
     background-color: white;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.1);
 
+    @include breakpoint-min(992){
+        height: 150px;
+        margin: 20px 0;
+    }
     @include breakpoint-min(1200){
         height: 200px;
+        margin: 25px 0;
     }
     @include breakpoint-min(1400){
         height: 250px;
+        margin: 30px 0;
     }
 
     &::after{
@@ -88,7 +94,11 @@
         margin: 10px 10px;
         width: auto;
         font-size: 1em;
-        width: 70%;
+        width: 50%;
+
+        @include breakpoint-min(992){
+            width: 70%;
+        }
 
         & h2{
             font-size: 1.2em;
@@ -128,7 +138,6 @@
         &>p:last-of-type{
             display: none;
             position: relative;
-            max-height: 50px;
             width: 100%;
             overflow: hidden;
             text-align: justify;
@@ -136,6 +145,10 @@
             
             @include breakpoint-min(992){
                 display: block;
+                max-height: 35px;
+            }
+            @include breakpoint-min(992){
+                max-height: 50px;
             }
             @include breakpoint-min(1400){
                 max-height: 75px;
@@ -162,25 +175,40 @@
         position: absolute;
         top: -15px;
         right: 15px;
-        width: 100px;
-        height: 75px;
+        padding: 5px;
         z-index: 10;
         background-color: var(--gris-fonce);
 
+        
         @include breakpoint-min(992){
-            display: block;
+            padding: 7px;
         }
-        @include breakpoint-min(992){
-            width: 100px;
+        @include breakpoint-min(1200){
+            padding: 10px;
         }
 
         & p{
-            color: white;
             margin: 0;
+            font-size: 0.5em;
+            color: white;
+
+            @include breakpoint-min(1200){
+                font-size: 0.8em;
+            }
+            @include breakpoint-min(1400){
+                font-size: 1.1em;
+            }
 
             &:first-of-type{
-                font-size: 1.3em;
+                font-size: 0.8em;
                 font-weight: 700;
+
+                @include breakpoint-min(1400){
+                    font-size: 1.1em;
+                }
+                @include breakpoint-min(1400){
+                    font-size: 1.3em;
+                }
             }
         }
     }
