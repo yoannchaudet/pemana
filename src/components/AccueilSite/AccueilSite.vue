@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <!-- CHANGER LA CLASS DU DIV ↴ -->
+    
     <div class="accueil-site">
 
         <div class="wrapInfo">
