@@ -14,7 +14,10 @@
             <img v-else src="./../../assets/img/png/no-img.png" :alt="props.objCat.name">
         </div>
     
-        <p v-text="props.objCat.name"></p>
+        <div class="wrapInfo">
+            <span class="material-symbols-outlined">home</span>
+            <p v-text="props.objCat.name"></p>
+        </div>
     </RouterLink>
     
 </template>
