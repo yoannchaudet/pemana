@@ -7,7 +7,11 @@
     <div class="affichage-a-venir">
 
         <h1>Page projets à venir</h1>
-        <h2>À venir</h2>
+        <h2>
+            <span class="material-symbols-outlined">construction</span>
+            En construction
+            <span class="material-symbols-outlined">construction</span>
+        </h2>
 
     </div>
 

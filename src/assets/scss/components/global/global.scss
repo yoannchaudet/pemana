@@ -2,6 +2,8 @@
 //  Auteur : Olivier Daigneault
 // = = = = = = = = = = = = = = = = = = = = = = = = =
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .interface{
     @include setFlex(row, start, start);
     width: 100vw;
