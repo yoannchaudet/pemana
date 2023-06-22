@@ -15,7 +15,7 @@
         </div>
     
         <div class="wrapInfo">
-            <span class="material-symbols-outlined">home</span>
+            <span class="material-symbols-outlined" v-text="props.objCat.icon"></span>
             <p v-text="props.objCat.name"></p>
         </div>
     </RouterLink>
