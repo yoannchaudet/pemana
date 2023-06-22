@@ -7,6 +7,20 @@
         position: relative;
         width: 100%;
 
+        &::after{
+            display: block;
+            position: absolute;
+            content: "";
+            height: 50px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            background: rgb(255,255,255);
+            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+            opacity: 50%;
+        }
+
         &>.wrapImg{
             position: relative;
             width: 100%;
