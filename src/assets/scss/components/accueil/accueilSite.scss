@@ -95,10 +95,16 @@
     & .listeVignetteCat{
         display: grid;
         width: 80%;
-        margin: 200px 0;
+        margin: 150px 0;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 40px 1fr;
+        grid-template-rows: 70px 1fr 40px 1fr;
         
+        &>h2{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            font-weight: 200
+        }
 
         & .vignetteCategorie{
             @include setFlex(column, start, center);
@@ -165,8 +171,8 @@
         &>.vignetteCategorie:last-of-type{
             grid-column-start: 1;
             grid-column-end: 4;
-            grid-row-start: 3;
-            grid-row-end: span 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
         }
     }
 }
