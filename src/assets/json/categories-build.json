@@ -9,18 +9,18 @@
     "id": 1,
     "name": "Logement Lac-Supérieur",
     "link": "/lac-superieur",
-    "img": "pemana/assets/69-71_00.jpg"
+    "img": "/pemana/assets/69-71_00.jpg"
   },
   {
     "id": 2,
     "name": "Logement Saint-Jérôme",
     "link": "/saint-jerome",
-    "img": "pemana/assets/1003_00.jpg"
+    "img": "/pemana/assets/1003_00.jpg"
   },
   {
     "id": 3,
     "name": "Projet à venir",
     "link": "/a-venir",
-    "img": "pemana/assets/proj_a_venir.png"
+    "img": "/pemana/assets/proj_a_venir.png"
   }
 ]
