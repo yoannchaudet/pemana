@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 549.61 549.61">
   <defs>
     <style>
       .cls-1, .cls-2 {
@@ -7,12 +7,15 @@
       }
 
       .cls-2 {
+        isolation: isolate;
         opacity: .8;
       }
     </style>
   </defs>
   <g id="Calque_1-2" data-name="Calque 1">
-    <circle class="cls-2" cx="180" cy="180" r="180"/>
-    <circle class="cls-1" cx="180" cy="180" r="90"/>
+    <g id="Calque_1-2" data-name="Calque 1-2">
+      <circle class="cls-2" cx="274.81" cy="274.81" r="274.81"/>
+      <circle class="cls-1" cx="274.81" cy="274.81" r="137.4"/>
+    </g>
   </g>
 </svg>

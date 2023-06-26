@@ -17,19 +17,19 @@
                 
                 <div class="reseauxSociaux">
                     <div class="wrapLogo">
-                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                        <img src="./../../../assets/img/svg/icons8-facebook.svg" alt="icons-facebook">
                     </div>
                     <div class="wrapLogo">
-                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                        <img src="./../../../assets/img/svg/icons8-twitter.svg" alt="icons-twitter">
                     </div>
                     <div class="wrapLogo">
-                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                        <img src="./../../../assets/img/svg/icons8-tumblr.svg" alt="icons-tumblr">
                     </div>
                     <div class="wrapLogo">
-                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                        <img src="./../../../assets/img/svg/icons8-instagram.svg" alt="icons-instagram">
                     </div>
                     <div class="wrapLogo">
-                        <img src="../../../assets/img/png/no-img.png" alt="logo-pemana">
+                        <img src="./../../../assets/img/svg/icons8-pinterest.svg" alt="icons-pinterest">
                     </div>
                 </div>
             </div>
