@@ -22,7 +22,18 @@
 
         <div class="marina-service">
             <div class="liste-service">
-            
+                <ul>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                    <li>service offert</li>
+                </ul>
             </div>
             <div class="wrapMap">
             

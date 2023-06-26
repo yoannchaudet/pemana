@@ -3,5 +3,29 @@
     & .affichage-marina{
         @include setFlex(column, center, center);
         min-height: 100vh;
+        
+        & .marina-top{
+            @include setFlex(row, space-around, center);
+            width: 100%;
+            padding: 30px;
+            
+            &>.titre{
+                position: relative;
+            }
+            &­>.galerie{
+                position: relative;
+
+                &­­­­>.­wrapImg:first-of-type{
+                    width: 700px;
+                    &>img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+                &­­­­>.­wrapImg:last-of-type{
+
+                }
+            }
+        }
     }
 }
