@@ -6,12 +6,13 @@
 
     <div class="affichage-marina">
 
-        <h1>Page Marina Zool bar gîte riverain</h1>
-        <h2>
-            <span class="material-symbols-outlined">construction</span>
-            En construction
-            <span class="material-symbols-outlined">construction</span>
-        </h2>
+        <div class="marina-quai">
+            FIRST HALF --> QUAI
+        </div>
+
+        <div class="marina-logement">
+            FIRST HALF --> LOGEMENT
+        </div>
 
     </div>
 
