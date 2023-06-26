@@ -11,19 +11,23 @@
             
             &>.titre{
                 position: relative;
+                
             }
-            &­>.galerie{
+            &>.galerie{
                 position: relative;
 
-                &­­­­>.­wrapImg:first-of-type{
+                &>.wrapImg:first-of-type{
                     width: 700px;
                     &>img{
                         width: 100%;
                         object-fit: contain;
                     }
                 }
-                &­­­­>.­wrapImg:last-of-type{
-
+                &>.wrapImg:last-of-type{
+                    position: absolute;
+                    width: 350px;
+                    bottom: 0;
+                    left: -50%;
                 }
             }
         }

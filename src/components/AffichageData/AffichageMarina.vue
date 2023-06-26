@@ -8,7 +8,7 @@
 
         <div class="marina-top">
             <div class="titre">
-                <h1>Marina Zool bar & gîte</h1>
+                <h1>Marina Zool bar &amp; gîte</h1>
             </div>
             <div class="galerie">
                 <div class="wrapImg">
