@@ -12,24 +12,24 @@
             <div class="entreprise">
 
                 <RouterLink class="wrapLogo" to="/">
-                    <img src="../../../assets/img/svg/logo_pemana.svg" alt="logo-pemana">
+                    <img src="@/assets/img/svg/logo_pemana.svg" alt="logo-pemana">
                 </RouterLink>
                 
                 <div class="reseauxSociaux">
                     <div class="wrapLogo">
-                        <img src="./../../../assets/img/svg/icons8-facebook.svg" alt="icons-facebook">
+                        <img src="@/assets/img/svg/icons8-facebook.svg" alt="icons-facebook">
                     </div>
                     <div class="wrapLogo">
-                        <img src="./../../../assets/img/svg/icons8-twitter.svg" alt="icons-twitter">
+                        <img src="@/assets/img/svg/icons8-twitter.svg" alt="icons-twitter">
                     </div>
                     <div class="wrapLogo">
-                        <img src="./../../../assets/img/svg/icons8-tumblr.svg" alt="icons-tumblr">
+                        <img src="@/assets/img/svg/icons8-tumblr.svg" alt="icons-tumblr">
                     </div>
                     <div class="wrapLogo">
-                        <img src="./../../../assets/img/svg/icons8-instagram.svg" alt="icons-instagram">
+                        <img src="@/assets/img/svg/icons8-instagram.svg" alt="icons-instagram">
                     </div>
                     <div class="wrapLogo">
-                        <img src="./../../../assets/img/svg/icons8-pinterest.svg" alt="icons-pinterest">
+                        <img src="@/assets/img/svg/icons8-pinterest.svg" alt="icons-pinterest">
                     </div>
                 </div>
             </div>
