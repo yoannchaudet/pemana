@@ -29,6 +29,7 @@
 
         <div class="marina-service">
             <div class="liste-service">
+                <h2>Services offerts</h2>
                 <ul>
                     <li>Stationnement réservé à nos clients et leur entourage.</li>
                     <li>Membre saisonnier de la marina</li>
@@ -57,8 +58,8 @@
                 <img src="@/assets/img/jpg/marina/marina_3d_1000x.jpg" alt="">
             </div>
             <div class="wrapInfo">
-                <h3>Projet de construction de logements près de la marina</h3>
-                <p>à venir</p>
+                <h3>Projet de construction près de la marina</h3>
+                <p>À venir : <span>Hébergements</span> &amp; <span>Resto-Bar</span></p>
             </div>
         </div>
 

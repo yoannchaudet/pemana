@@ -199,13 +199,18 @@
                 position: relative;
                 width: 450px;
                 padding: 10px 30px;
-                top: -20px;
+                top: -40px;
                 left: -40px;
                 background-color: white;
                 border-radius: 20px;
 
                 &>p{
                     margin: 0;
+
+                    &>span{
+                        font-weight: 700;
+                        color: var(--vert-lime);
+                    }
                 }
             }
         }
