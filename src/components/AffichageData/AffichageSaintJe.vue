@@ -14,7 +14,7 @@
             <h2>Logements à</h2>
             <h1>Saint-Jérôme</h1>
             <div class="wrapImg">
-                <img src="./../../assets/img/svg/logo_pemana_light_plein.svg" alt="">
+                <img src="@/assets/img/svg/logo_pemana_light_plein.svg" alt="">
             </div>
         </div>
 
