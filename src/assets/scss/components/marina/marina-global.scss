@@ -14,6 +14,20 @@
             width: 100%;
             padding: 50px;
             
+            &::after{
+                display: block;
+                position: absolute;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: -1;
+                opacity: 0.1;
+                background-image: url("@/assets/img/jpg/wavy_bg_thin.jpg");
+                background-size: cover;
+            }
+
             &>.titre{
                 position: relative;
                 margin: 8% 50px auto 0;
@@ -32,9 +46,9 @@
                 }
                 &>.wrapImg{
                     position: absolute;
-                    width: 120%;
+                    width: 140%;
                     bottom: 0;
-                    left: -10%;
+                    left: -20%;
                     z-index: -1;
 
                     &>img{
@@ -45,22 +59,45 @@
             }
             &>.galerie{
                 position: relative;
-
+                
                 &>.wrapImg:first-of-type{
+                    position: relative;
                     width: 700px;
+                    height: 700px;
+
+                    &::after{
+                        display: block;
+                        position: absolute;
+                        width: 250px;
+                        height: 50px;
+                        padding: 0;
+                        content: "";
+                        left: -25px;
+                        top: 25px;
+                        z-index: 10;
+                        border-radius: 10px 0 50px 0;
+                        background-color: var(--vert-lime);
+                    }
                     &>img{
+                        object-fit: cover;
                         width: 100%;
-                        object-fit: contain;
+                        height: 100%;
+                        overflow: hidden;
+                        object-position: left;
                     }
                 }
                 &>.wrapImg:nth-of-type(2){
                     position: absolute;
                     width: 350px;
+                    height: 350px;
                     bottom: 50px;
                     left: -200px;
                     &>img{
+                        object-fit: cover;
                         width: 100%;
-                        object-fit: contain;
+                        height: 100%;
+                        overflow: hidden;
+                        object-position: left;
                     }
                 }
                 &>.wrapLogo{
@@ -81,7 +118,19 @@
             width: 100%;
             padding: 50px 100px;
             background: top 15% left / cover no-repeat url("@/assets/img/svg/map_location.svg");
-        
+            
+            &>.liste-service{
+                width: 400px;
+
+                &>ul{
+                    list-style: circle;
+
+                    &>li{
+                        margin: 10px 0;
+                    }
+                }
+            }
+
             &>.adresse{
 
                 &>p{
@@ -91,6 +140,8 @@
             }
 
             &>.wrapMap{
+                @include setFlex(column, center, center);
+                position: relative;
                 
                 &>.wrapImg{
                     width: 500px;
@@ -105,16 +156,39 @@
                         box-shadow: -5px 5px 5px  rgba(0, 0, 0, 0.1);
                     }
                 }
+                &>a{
+                    position: relative;
+                    top: -35px;
+                    font-weight: 600;
+                    text-decoration: underline;
+                    color: var(--vert-lime);
+                }
             }
         }
         
         &>.marina-logement{
             @include setFlex(row, center, center);
+            position: relative;
             padding: 50px;
-
+            
             &>.wrapImg{
+                position: relative;
                 width: 500px;
                 margin: 10px;
+
+                &::after{
+                    display: block;
+                    position: absolute;
+                    width: 200px;
+                    height: 50px;
+                    padding: 0;
+                    content: "";
+                    left: -50px;
+                    top: 25px;
+                    z-index: 10;
+                    border-radius: 0 10px 0 50px;
+                    background-color: var(--vert-lime);
+                }
 
                 &>img{
                     width: 100%;
@@ -122,8 +196,22 @@
                 }
             }
             &>.wrapInfo{
-                width: 350px;
-                margin: 10px;
+                position: relative;
+                width: 450px;
+                padding: 10px 30px;
+                top: -40px;
+                left: -40px;
+                background-color: white;
+                border-radius: 20px;
+
+                &>p{
+                    margin: 0;
+
+                    &>span{
+                        font-weight: 700;
+                        color: var(--vert-lime);
+                    }
+                }
             }
         }
     }
