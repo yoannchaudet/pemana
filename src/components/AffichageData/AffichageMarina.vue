@@ -16,7 +16,7 @@
             </div>
             <div class="galerie">
                 <div class="wrapImg">
-                    <img src="@/assets/img/png/no-img.png" alt="">
+                    <img src="@/assets/img/jpg/marina/quai.jpg" alt="">
                 </div>
                 <div class="wrapImg">
                     <img src="@/assets/img/png/no-img.png" alt="">

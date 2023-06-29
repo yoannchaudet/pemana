@@ -63,6 +63,7 @@
                 &>.wrapImg:first-of-type{
                     position: relative;
                     width: 700px;
+                    height: 700px;
 
                     &::after{
                         display: block;
@@ -78,8 +79,11 @@
                         background-color: var(--vert-lime);
                     }
                     &>img{
+                        object-fit: cover;
                         width: 100%;
-                        object-fit: contain;
+                        height: 100%;
+                        overflow: hidden;
+                        object-position: left;
                     }
                 }
                 &>.wrapImg:nth-of-type(2){
