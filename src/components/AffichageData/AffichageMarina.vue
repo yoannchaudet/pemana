@@ -36,7 +36,9 @@
                 </ul>
             </div>
             <div class="wrapMap">
-            
+                <div class="wrapImg">
+                    <img src="./../../assets/img/png/no-img.png" alt="">
+                </div>
             </div>
         </div>
 

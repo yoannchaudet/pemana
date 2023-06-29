@@ -5,13 +5,17 @@
         min-height: 100vh;
         
         & .marina-top{
-            @include setFlex(row, space-around, center);
+            @include setFlex(row, space-between, center);
             width: 100%;
-            padding: 30px;
+            padding: 50px;
             
             &>.titre{
                 position: relative;
                 
+                &>h1{
+                    position: relative;
+                    top: -100px;
+                }
             }
             &>.galerie{
                 position: relative;
@@ -26,10 +30,26 @@
                 &>.wrapImg:last-of-type{
                     position: absolute;
                     width: 350px;
-                    bottom: 0;
-                    left: -50%;
+                    bottom: 50px;
+                    left: -200px;
+                    &>img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
                 }
             }
+        }
+
+        &>.marina-service{
+            @include setFlex(row, space-between, center);
+            width: 100%;
+            padding: 50px;
+            background: top left / cover no-repeat url("@/assets/img/svg/map_location.svg");
+        }
+        
+        &>.marina-logement{
+            @include setFlex(row, center, center);
+            padding: 50px;
         }
     }
 }
