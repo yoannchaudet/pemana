@@ -5,16 +5,38 @@
         min-height: 100vh;
         
         & .marina-top{
-            @include setFlex(row, space-between, center);
+            @include setFlex(row, center, center);
+            position: relative;
             width: 100%;
             padding: 50px;
             
             &>.titre{
                 position: relative;
+                margin: 8% 50px auto 0;
+                top: 30%;
+                z-index: 10;
                 
                 &>h1{
-                    position: relative;
-                    top: -100px;
+                    margin: 0;
+                    font-size: 4em;
+                    font-weight: 900;
+                    color: var(--vert-lime);
+                }
+                &>h2{
+                    font-size: 2em;
+                    font-weight: 300;
+                }
+                &>.wrapImg{
+                    position: absolute;
+                    width: 120%;
+                    bottom: 0;
+                    left: -10%;
+                    z-index: -1;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
                 }
             }
             &>.galerie{
@@ -27,11 +49,21 @@
                         object-fit: contain;
                     }
                 }
-                &>.wrapImg:last-of-type{
+                &>.wrapImg:nth-of-type(2){
                     position: absolute;
                     width: 350px;
                     bottom: 50px;
                     left: -200px;
+                    &>img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+                &>.wrapLogo{
+                    position: absolute;
+                    width: 150px;
+                    top: 10px;
+                    right: 10px;
                     &>img{
                         width: 100%;
                         object-fit: contain;
@@ -43,13 +75,52 @@
         &>.marina-service{
             @include setFlex(row, space-between, center);
             width: 100%;
-            padding: 50px;
-            background: top left / cover no-repeat url("@/assets/img/svg/map_location.svg");
+            padding: 50px 100px;
+            background: top 15% left / cover no-repeat url("@/assets/img/svg/map_location.svg");
+        
+            &>.adresse{
+
+                &>p{
+                    margin: 5px;
+                    text-align: right;
+                }
+            }
+
+            &>.wrapMap{
+                
+                &>.wrapImg{
+                    width: 500px;
+                    height: 500px;
+                    
+                    &>img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10%;
+                        object-fit: cover;
+                        overflow: hidden;
+                        box-shadow: -5px 5px 5px  rgba(0, 0, 0, 0.1);
+                    }
+                }
+            }
         }
         
         &>.marina-logement{
             @include setFlex(row, center, center);
             padding: 50px;
+
+            &>.wrapImg{
+                width: 500px;
+                margin: 10px;
+
+                &>img{
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+            &>.wrapInfo{
+                width: 350px;
+                margin: 10px;
+            }
         }
     }
 }
