@@ -72,10 +72,10 @@
                         height: 50px;
                         padding: 0;
                         content: "";
-                        right: -25px;
-                        bottom: 25px;
+                        left: -25px;
+                        top: 25px;
                         z-index: 10;
-                        border-radius: 50px 0 10px 0;
+                        border-radius: 10px 0 50px 0;
                         background-color: var(--vert-lime);
                     }
                     &>img{
@@ -89,12 +89,15 @@
                 &>.wrapImg:nth-of-type(2){
                     position: absolute;
                     width: 350px;
+                    height: 350px;
                     bottom: 50px;
                     left: -200px;
                     &>img{
-                        position: relative;
+                        object-fit: cover;
                         width: 100%;
-                        object-fit: contain;
+                        height: 100%;
+                        overflow: hidden;
+                        object-position: left;
                     }
                 }
                 &>.wrapLogo{
@@ -115,7 +118,19 @@
             width: 100%;
             padding: 50px 100px;
             background: top 15% left / cover no-repeat url("@/assets/img/svg/map_location.svg");
-        
+            
+            &>.liste-service{
+                width: 400px;
+
+                &>ul{
+                    list-style: circle;
+
+                    &>li{
+                        margin: 10px 0;
+                    }
+                }
+            }
+
             &>.adresse{
 
                 &>p{

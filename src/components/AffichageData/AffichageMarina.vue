@@ -19,7 +19,7 @@
                     <img src="@/assets/img/jpg/marina/quai.jpg" alt="">
                 </div>
                 <div class="wrapImg">
-                    <img src="@/assets/img/png/no-img.png" alt="">
+                    <img src="@/assets/img/jpg/marina/bateau.jpg" alt="">
                 </div>
                 <div class="wrapLogo">
                     <img src="@/assets/img/svg/logo_marina.svg" alt="">
@@ -30,16 +30,13 @@
         <div class="marina-service">
             <div class="liste-service">
                 <ul>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
-                    <li>service offert</li>
+                    <li>Stationnement réservé à nos clients et leur entourage.</li>
+                    <li>Membre saisonnier de la marina</li>
+                    <li>Électricité 15 ampères</li>
+                    <li>Eau / Toilette</li>
+                    <li>Surveillance des lieux</li>
+                    <li>Quais de service ou d'accostage temporaire</li>
+                    <li>Activités à proximité</li>
                 </ul>
             </div>
             <div class="adresse">
