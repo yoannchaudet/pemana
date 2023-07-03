@@ -9,7 +9,6 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha1",
     "swiper": "^9.4.1",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0",
