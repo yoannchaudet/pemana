@@ -7,6 +7,10 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base: '/',
 
+  build: {
+    assetsDir: 'assets'
+  },
+
   plugins: [vue()],
   resolve: {
     alias: {
