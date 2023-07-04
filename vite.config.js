@@ -5,7 +5,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/pemana/',
+  base: '/',
+
+  build: {
+    assetsDir: 'assets'
+  },
 
   plugins: [vue()],
   resolve: {
